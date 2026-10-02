@@ -1,0 +1,24 @@
+[
+  {
+    "company": "Deloitte",
+    "role": "Assistant Manager",
+    "division": "Cyber & Strategic Risk",
+    "period": "May 2026 – Present",
+    "isCurrent": true,
+    "responsibilities": [
+      "Leading enterprise **Saviynt IGA** platform governance, continuous SoD compliance, and multi-tenant cloud directory federation.",
+      "Architected automated Python reconciliation pipelines processing **300K+ monthly identities** across Workday, AD, and Microsoft Entra ID."
+    ]
+  },
+  {
+    "company": "Deloitte",
+    "role": "Consultant",
+    "division": "Cyber & Strategic Risk",
+    "period": "Jul 2023 – Apr 2026",
+    "isCurrent": false,
+    "responsibilities": [
+      "Reduced access exceptions by **20–30%** and post-deployment defects by **25–30%** across 9 global enterprise operational zones.",
+      "Resolved **250+ ServiceNow RITMs**, automated 90% of critical API testing suites, and earned **13 Deloitte firm-wide awards**."
+    ]
+  }
+]

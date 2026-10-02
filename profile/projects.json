@@ -1,0 +1,75 @@
+[
+  {
+    "id": "AI-Dev-Team",
+    "name": "AI-Dev-Team",
+    "icon": "🤖",
+    "repoUrl": "https://github.com/ha4kerspidersks/AI-Dev-Team",
+    "description": "Autonomous multi-agent AI engineering dev team coordinating 3,200+ specialized skills across Gemini, Claude, and Copilot backends.",
+    "tech": [
+      "Python",
+      "Node.js",
+      "Model Context Protocol (MCP)",
+      "Multi-Agent"
+    ],
+    "highlights": [
+      "Orchestration of 3 execution backends",
+      "Dynamic model routing & work package partitioning",
+      "Line-level verification & safety gates"
+    ]
+  },
+  {
+    "id": "User-Role-Recommendations",
+    "name": "User-Role-Recommendations",
+    "icon": "🎯",
+    "repoUrl": "https://github.com/ha4kerspidersks/User-Role-Recommendations",
+    "description": "Machine learning role mining & access anomaly detection system predicting least-privilege entitlement assignments.",
+    "tech": [
+      "Python",
+      "scikit-learn",
+      "Pandas",
+      "Role Mining",
+      "RBAC"
+    ],
+    "highlights": [
+      "Predictive least-privilege entitlement assignment",
+      "Toxic combination & anomalous grant detection",
+      "Automated access review preparation"
+    ]
+  },
+  {
+    "id": "React-Auth0-PermissionManager",
+    "name": "React-Auth0-PermissionManager",
+    "icon": "🔐",
+    "repoUrl": "https://github.com/ha4kerspidersks/React-Auth0-PermissionManager",
+    "description": "Production RBAC permission management dashboard with OAuth 2.0 / OIDC tokens and fine-grained access control.",
+    "tech": [
+      "React",
+      "Auth0",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "highlights": [
+      "OAuth 2.0 / OIDC JWT claim inspection",
+      "Dynamic policy enforcement points (PEP)",
+      "Interactive role assignment and audit trail"
+    ]
+  },
+  {
+    "id": "piescan",
+    "name": "piescan",
+    "icon": "⚡",
+    "repoUrl": "https://github.com/ha4kerspidersks/piescan",
+    "description": "High-performance asynchronous network scanner and service fingerprinting engine for automated vulnerability auditing.",
+    "tech": [
+      "Python",
+      "Asyncio",
+      "Raw Sockets",
+      "Recon Engine"
+    ],
+    "highlights": [
+      "Ultra-low latency asynchronous port scanning",
+      "Banner grabbing & service signature matching",
+      "Zero external dependency core"
+    ]
+  }
+]

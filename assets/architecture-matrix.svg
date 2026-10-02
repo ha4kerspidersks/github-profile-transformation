@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nodeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111B2E"/>
+      <stop offset="100%" stop-color="#0A101D"/>
+    </linearGradient>
+    <linearGradient id="flowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#86BC25"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#38BDF8"/>
+    </marker>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="230" rx="14" fill="#070B12" stroke="#1E293B" stroke-width="1.2"/>
+  
+  <!-- Section Title -->
+  <text x="30" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#64748B" letter-spacing="1.5">ENTERPRISE IDENTITY GOVERNANCE &amp; AGENTIC AUTOMATION PIPELINE</text>
+
+  <!-- Connector Line -->
+  <line x1="170" y1="125" x2="1030" y2="125" stroke="#1E3A5F" stroke-width="2.5"/>
+  <line x1="170" y1="125" x2="1030" y2="125" stroke="url(#flowLine)" stroke-width="2.5" stroke-dasharray="8,6"/>
+
+  <!-- Step 1: HR Source of Truth -->
+  <g transform="translate(30, 55)">
+    <rect width="195" height="140" rx="10" fill="url(#nodeBg)" stroke="#1D4ED8" stroke-width="1.5"/>
+    <rect x="16" y="16" width="32" height="32" rx="6" fill="#1E3A8A"/>
+    <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#60A5FA">👤</text>
+    <text x="58" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#93C5FD">STAGE 01</text>
+    <text x="58" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">HR TRUTH</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#E2E8F0">Workday Platform</text>
+    <text x="16" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• Authoritative Profiles</text>
+    <text x="16" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• Worker Data Feed</text>
+  </g>
+
+  <!-- Step 2: Data Reconciliation Engine -->
+  <g transform="translate(265, 55)">
+    <rect width="205" height="140" rx="10" fill="url(#nodeBg)" stroke="#0284C7" stroke-width="1.5"/>
+    <rect x="16" y="16" width="32" height="32" rx="6" fill="#0369A1"/>
+    <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#38BDF8">⚡</text>
+    <text x="58" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#7DD3FC">STAGE 02</text>
+    <text x="58" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">RECONCILIATION</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#E2E8F0">Python Pipeline &amp; SOP</text>
+    <text x="16" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• 300K+ Identities/Mo</text>
+    <text x="16" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• 80–90% Defect Cut</text>
+  </g>
+
+  <!-- Step 3: Saviynt IGA Core -->
+  <g transform="translate(510, 55)">
+    <rect width="205" height="140" rx="10" fill="url(#nodeBg)" stroke="#059669" stroke-width="1.8"/>
+    <rect x="16" y="16" width="32" height="32" rx="6" fill="#047857"/>
+    <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#34D399">🛡️</text>
+    <text x="58" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#6EE7B7">STAGE 03</text>
+    <text x="58" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">SAVIYNT IGA CORE</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#E2E8F0">Governance &amp; Controls</text>
+    <text x="16" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• JML Lifecycle Engine</text>
+    <text x="16" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• SOD, RBAC &amp; Certs</text>
+  </g>
+
+  <!-- Step 4: Target Provisioning -->
+  <g transform="translate(755, 55)">
+    <rect width="200" height="140" rx="10" fill="url(#nodeBg)" stroke="#7C3AED" stroke-width="1.5"/>
+    <rect x="16" y="16" width="32" height="32" rx="6" fill="#6D28D9"/>
+    <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#C4B5FD">🌐</text>
+    <text x="58" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#DDD6FE">STAGE 04</text>
+    <text x="58" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">TARGET PLATFORMS</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#E2E8F0">Enterprise Endpoints</text>
+    <text x="16" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• AD &amp; Microsoft Entra ID</text>
+    <text x="16" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• 250+ ServiceNow RITMs</text>
+  </g>
+
+  <!-- Step 5: Continuous Audit & AI Agents -->
+  <g transform="translate(995, 55)">
+    <rect width="175" height="140" rx="10" fill="url(#nodeBg)" stroke="#D97706" stroke-width="1.5"/>
+    <rect x="16" y="16" width="32" height="32" rx="6" fill="#B45309"/>
+    <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#FCD34D">🤖</text>
+    <text x="58" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#FDE68A">STAGE 05</text>
+    <text x="58" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">AI GOVERNANCE</text>
+    <text x="16" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#E2E8F0">AI-Dev-Team &amp; MCP</text>
+    <text x="16" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• Autonomous Audit</text>
+    <text x="16" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8">• Policy Drift Checks</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "name": "github-profile-transformation",
+  "version": "1.0.0",
+  "description": "Source engine, automated data pipeline, 3D card generator, and design system for Subhajit Kar's GitHub profile",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "validate": "python3 scripts/validate.py",
+    "preview": "python3 scripts/preview.py",
+    "generate:readme": "python3 scripts/generate-readme.py",
+    "generate:cards": "python3 scripts/generate-tech-wall.py",
+    "generate:hero": "python3 scripts/generate-hero.py",
+    "export": "python3 scripts/export-to-profile.py"
+  },
+  "keywords": [
+    "github-profile",
+    "design-system",
+    "iam",
+    "iga",
+    "svg",
+    "automation"
+  ],
+  "author": "Subhajit Kar",
+  "license": "MIT"
+}

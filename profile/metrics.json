@@ -1,0 +1,26 @@
+[
+  {
+    "metric": "300K+",
+    "label": "IDENTITIES / MONTH",
+    "description": "Reconciled across Workday, Saviynt, AD & Entra ID (9 Global Regions)",
+    "color": "#00F2FE"
+  },
+  {
+    "metric": "80–90%",
+    "label": "DEFECT REDUCTION",
+    "description": "Eliminated attribute discrepancies via automated Data Gap SOPs",
+    "color": "#10B981"
+  },
+  {
+    "metric": "20–30%",
+    "label": "EXCEPTION DROP",
+    "description": "Decreased access violations via secure-by-design IGA controls",
+    "color": "#A855F7"
+  },
+  {
+    "metric": "90%",
+    "label": "API TEST COVERAGE",
+    "description": "Across critical IGA workflows, cutting post-deploy defects 25–30%",
+    "color": "#F59E0B"
+  }
+]

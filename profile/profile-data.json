@@ -1,0 +1,121 @@
+{
+  "personal": {
+    "name": "SUBHAJIT KAR",
+    "role": "Senior IAM Assistant Manager",
+    "specialization": "Enterprise Identity Governance & Large-Scale Data Analytics",
+    "organization": "Deloitte Cyber & Strategic Risk",
+    "statusIndicator": {
+      "leftText": "DELOITTE CYBER & STRATEGIC RISK",
+      "rightText": "ENTERPRISE IGA",
+      "dotColor": "#10B981"
+    },
+    "focusLine": "Saviynt IGA · Identity Recon (300K+) · JML Workflows · AI Dev Team",
+    "heroVisualTheme": "enterprise-cybersecurity-iam-radar"
+  },
+  "badges": [
+    {
+      "id": "saviynt",
+      "label": "SAVIYNT IGA",
+      "color": "#00F2FE",
+      "borderColor": "#00F2FE",
+      "order": 1
+    },
+    {
+      "id": "iam_iga",
+      "label": "IAM / IGA",
+      "color": "#E2E8F0",
+      "borderColor": "#38BDF8",
+      "order": 2
+    },
+    {
+      "id": "cybersecurity",
+      "label": "CYBERSECURITY",
+      "color": "#34D399",
+      "borderColor": "#10B981",
+      "order": 3
+    },
+    {
+      "id": "ai_automation",
+      "label": "AI & AUTOMATION",
+      "color": "#D8B4FE",
+      "borderColor": "#A855F7",
+      "order": 4
+    }
+  ],
+  "links": {
+    "portfolio": {
+      "label": "Portfolio",
+      "text": "subhajitkar.com",
+      "url": "https://subhajitkar.com",
+      "badgeUrl": "https://img.shields.io/badge/Portfolio-subhajitkar.com-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=black"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "text": "Subhajit_Kar",
+      "url": "https://www.linkedin.com/in/subhajit-kar/",
+      "badgeUrl": "https://img.shields.io/badge/LinkedIn-Subhajit_Kar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    },
+    "github": {
+      "label": "GitHub",
+      "text": "ha4kerspidersks",
+      "url": "https://github.com/ha4kerspidersks",
+      "badgeUrl": "https://img.shields.io/badge/GitHub-ha4kerspidersks-181717?style=for-the-badge&logo=github&logoColor=white"
+    },
+    "medium": {
+      "label": "Medium",
+      "text": "@ha4ker__spider__sks",
+      "url": "https://medium.com/@ha4ker__spider__sks",
+      "badgeUrl": "https://img.shields.io/badge/Medium-@ha4ker__spider__sks-12100E?style=for-the-badge&logo=medium&logoColor=white"
+    },
+    "x": {
+      "label": "X",
+      "text": "@Ha4ker_spider",
+      "url": "https://x.com/Ha4ker_spider",
+      "badgeUrl": "https://img.shields.io/badge/X-@Ha4ker__spider-000000?style=for-the-badge&logo=x&logoColor=white"
+    }
+  },
+  "heroVisualNodes": [
+    {
+      "id": "hr_truth",
+      "label": "HR TRUTH",
+      "color": "#00F2FE",
+      "position": "top",
+      "description": "Workday Authoritative Source"
+    },
+    {
+      "id": "saviynt",
+      "label": "SAVIYNT",
+      "color": "#FFDB70",
+      "position": "top-right",
+      "description": "Core IGA Engine & SoD Analysis"
+    },
+    {
+      "id": "directory",
+      "label": "DIRECTORY",
+      "color": "#38BDF8",
+      "position": "bottom-right",
+      "description": "Active Directory & Microsoft Entra ID"
+    },
+    {
+      "id": "ai_dev_team",
+      "label": "AI DEV TEAM",
+      "color": "#A855F7",
+      "position": "bottom",
+      "description": "Autonomous Governance & MCP Sidecars"
+    },
+    {
+      "id": "recon_300k",
+      "label": "300K+ RECON",
+      "color": "#10B981",
+      "position": "bottom-left",
+      "description": "Monthly Identity Reconciliation"
+    },
+    {
+      "id": "sod_matrix",
+      "label": "SOD MATRIX",
+      "color": "#F43F5E",
+      "position": "top-left",
+      "description": "Least-Privilege Conflict Prevention"
+    }
+  ]
+}

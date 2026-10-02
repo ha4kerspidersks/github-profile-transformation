@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="-8 0 125.5 125.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="ca-shield" d="M107.2,93l-51.4,29.7l0-29.3l51.4-29.7V93z M28.7,79l25,14.4l0,29.3l-50.4-29L28.7,79z M53.6,2.8v29.3 L28.7,46.5L3.2,31.9L53.6,2.8z M106.1,31.8L80.7,46.5l-25-14.4V2.8L106.1,31.8z M27.6,77.2L2.2,91.9L2.1,33.7l25.4,14.6V77.2z M53.6,62.1L29.7,75.9V48.4l23.9-13.8V62.1z M55.7,34.6l23.9,13.8v27.6L55.7,62.1V34.6z M54.7,91.5L30.8,77.8L54.7,64l23.9,13.8 L54.7,91.5z M107.7,60.9l-26,15V48.4l27-15.6v-1.8L55.2,0h-1.1L0.5,31L0,31.9l0.1,61.8l0.5,0.9l53.6,30.8l1.1,0l53.5-30.9 l0.5-0.9V61.8L107.7,60.9z"/>
+    <linearGradient id="ca-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38B1E6"/>
+      <stop offset="100%" stop-color="#296FB8"/>
+    </linearGradient>
+    <clipPath id="ca-clip">
+      <use xlink:href="#ca-shield"/>
+    </clipPath>
+  </defs>
+  <rect clip-path="url(#ca-clip)" fill="url(#ca-grad)" width="109.3" height="125.5"/>
+</svg>

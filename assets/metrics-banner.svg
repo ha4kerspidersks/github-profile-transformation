@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1726"/>
+      <stop offset="100%" stop-color="#090E17"/>
+    </linearGradient>
+    <linearGradient id="cardBorder1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="cardBorder2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+    <linearGradient id="cardBorder3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="cardBorder4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Metric Card 1: 300K+ -->
+  <g transform="translate(0, 10)">
+    <rect width="285" height="150" rx="12" fill="url(#cardBg)" stroke="url(#cardBorder1)" stroke-width="1.5"/>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#38BDF8">300K+</text>
+    <text x="24" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F1F5F9" letter-spacing="0.5">IDENTITIES / MONTH</text>
+    <text x="24" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Reconciled across Workday, Saviynt,</text>
+    <text x="24" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">AD &amp; Entra ID (9 Global Regions)</text>
+  </g>
+
+  <!-- Metric Card 2: 80-90% -->
+  <g transform="translate(305, 10)">
+    <rect width="285" height="150" rx="12" fill="url(#cardBg)" stroke="url(#cardBorder2)" stroke-width="1.5"/>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#34D399">80–90%</text>
+    <text x="24" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F1F5F9" letter-spacing="0.5">DEFECT REDUCTION</text>
+    <text x="24" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Eliminated attribute discrepancies</text>
+    <text x="24" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">via automated Data Gap SOPs</text>
+  </g>
+
+  <!-- Metric Card 3: 20-30% -->
+  <g transform="translate(610, 10)">
+    <rect width="285" height="150" rx="12" fill="url(#cardBg)" stroke="url(#cardBorder3)" stroke-width="1.5"/>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#A78BFA">20–30%</text>
+    <text x="24" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F1F5F9" letter-spacing="0.5">EXCEPTION DROP</text>
+    <text x="24" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Decreased access violations via</text>
+    <text x="24" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">secure-by-design IGA controls</text>
+  </g>
+
+  <!-- Metric Card 4: 90% Test Coverage -->
+  <g transform="translate(915, 10)">
+    <rect width="285" height="150" rx="12" fill="url(#cardBg)" stroke="url(#cardBorder4)" stroke-width="1.5"/>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#FBBF24">90%</text>
+    <text x="24" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#F1F5F9" letter-spacing="0.5">API TEST COVERAGE</text>
+    <text x="24" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Across critical IGA workflows,</text>
+    <text x="24" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">cutting post-deploy defects 25–30%</text>
+  </g>
+</svg>

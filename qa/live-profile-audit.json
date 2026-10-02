@@ -1,0 +1,555 @@
+{
+  "timestamp": "2026-10-02T02:24:51.921Z",
+  "url": "https://github.com/ha4kerspidersks",
+  "httpStatus": 200,
+  "readmeRendered": true,
+  "imagesTotal": 68,
+  "brokenImages": 0,
+  "images": [
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/hero-banner.svg",
+      "alt": "Subhajit Kar - Senior IAM Assistant Manager - Enterprise Identity Governance & Data Analytics",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 340,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/8b4ea8466756364728a4aa8f940035ce16c0593861a9aad6c79efab708abbca1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506f7274666f6c696f2d73756268616a69746b61722e636f6d2d3030463246453f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c656368726f6d65266c6f676f436f6c6f723d626c61636b",
+      "alt": "Portfolio",
+      "complete": true,
+      "naturalWidth": 261,
+      "naturalHeight": 28,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/6193555e41624fcf067e4d314bef20f0aeb5577de15701c3831010dc64ddb2cb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564496e2d53756268616a69745f4b61722d3041363643323f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465",
+      "alt": "LinkedIn",
+      "complete": true,
+      "naturalWidth": 205,
+      "naturalHeight": 28,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/2f21f5bb119833a4a7b4daf32df26dae37cec0e07f81f44c8768d5d8eec990f2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d6861346b6572737069646572736b732d3138313731373f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465",
+      "alt": "GitHub",
+      "complete": true,
+      "naturalWidth": 240,
+      "naturalHeight": 28,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/038a4263d292c9cbb62d7d089912c7b7bc2fa052007db60b9d08805d17774a09/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d406861346b65725f5f7370696465725f5f736b732d3132313030453f7374796c653d666f722d7468652d6261646765266c6f676f3d6d656469756d266c6f676f436f6c6f723d7768697465",
+      "alt": "Medium",
+      "complete": true,
+      "naturalWidth": 271,
+      "naturalHeight": 28,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/172353daae5f4dcd6d64de517903c8949f8173a5f5afbf40a1cd4b4d772bee87/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f582d404861346b65725f5f7370696465722d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d78266c6f676f436f6c6f723d7768697465",
+      "alt": "X",
+      "complete": true,
+      "naturalWidth": 195,
+      "naturalHeight": 28,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/saviynt.svg",
+      "alt": "Saviynt",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/entra_id.svg",
+      "alt": "Microsoft Entra ID",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/active_directory.svg",
+      "alt": "Active Directory",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/sod_matrix.svg",
+      "alt": "SoD & RBAC",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/jml_workflows.svg",
+      "alt": "JML Workflows",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/okta.svg",
+      "alt": "Okta",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/oauth_oidc.svg",
+      "alt": "OAuth & SAML",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/fido2_mfa.svg",
+      "alt": "FIDO2 & MFA",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/reconciliation.svg",
+      "alt": "300K+ Data Reconciliation",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/python.svg",
+      "alt": "Python",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/snowflake.svg",
+      "alt": "Snowflake",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/postgresql.svg",
+      "alt": "PostgreSQL",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/mysql.svg",
+      "alt": "MySQL",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/mongodb.svg",
+      "alt": "MongoDB",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/redis.svg",
+      "alt": "Redis",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/agentic_ai.svg",
+      "alt": "Agentic AI",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/mcp.svg",
+      "alt": "Model Context Protocol (MCP)",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/llm_engineering.svg",
+      "alt": "LLM Engineering",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/ai_workflows.svg",
+      "alt": "AI Workflows",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/aws.svg",
+      "alt": "AWS",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/azure.svg",
+      "alt": "Microsoft Azure",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/firebase.svg",
+      "alt": "Google Firebase",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/vercel.svg",
+      "alt": "Vercel",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/docker.svg",
+      "alt": "Docker",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/jenkins.svg",
+      "alt": "Jenkins",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/git.svg",
+      "alt": "Git",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/github.svg",
+      "alt": "GitHub Enterprise",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/linux.svg",
+      "alt": "Linux",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/bash.svg",
+      "alt": "GNU Bash",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/vite.svg",
+      "alt": "Vite",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/vscode.svg",
+      "alt": "Visual Studio Code",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/zero_trust.svg",
+      "alt": "Zero Trust Architecture",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/cyberark.svg",
+      "alt": "CyberArk PAM",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/owasp.svg",
+      "alt": "OWASP",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/burpsuite.svg",
+      "alt": "PortSwigger Burp Suite",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/wireshark.svg",
+      "alt": "Wireshark",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/java.svg",
+      "alt": "Java",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/javascript.svg",
+      "alt": "JavaScript",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/typescript.svg",
+      "alt": "TypeScript",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/nodejs.svg",
+      "alt": "Node.js",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/react.svg",
+      "alt": "React",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/nextjs.svg",
+      "alt": "Next.js",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/fastapi.svg",
+      "alt": "FastAPI",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/flask.svg",
+      "alt": "Flask",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/postman.svg",
+      "alt": "Postman",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/threejs.svg",
+      "alt": "Three.js",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/gsap.svg",
+      "alt": "GSAP",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/tailwind.svg",
+      "alt": "Tailwind CSS",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/html.svg",
+      "alt": "HTML5",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/css.svg",
+      "alt": "CSS3",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/cplusplus.svg",
+      "alt": "C / C++",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/workday.svg",
+      "alt": "Workday HRMS",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/servicenow.svg",
+      "alt": "ServiceNow",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/jira.svg",
+      "alt": "Atlassian Jira",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/sox_compliance.svg",
+      "alt": "SOX 404 Compliance",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/skills/cards/figma.svg",
+      "alt": "Figma",
+      "complete": true,
+      "naturalWidth": 104,
+      "naturalHeight": 106,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/architecture-matrix.svg",
+      "alt": "Enterprise Identity Governance & AI Automation Pipeline",
+      "complete": true,
+      "naturalWidth": 300,
+      "naturalHeight": 58,
+      "broken": false
+    },
+    {
+      "src": "https://github.com/ha4kerspidersks/ha4kerspidersks/raw/main/assets/metrics-banner.svg",
+      "alt": "Verified Operational Metrics - 300K+ Identities Reconciled, 80-90% Defect Reduction, 20-30% Exception Drop, 90% API Test Coverage",
+      "complete": true,
+      "naturalWidth": 300,
+      "naturalHeight": 43,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/cffb9b4557f21cb91833736f0174e8fc89d25a1c83113aeaf6babd14a821c832/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53617669796e742d4365727469666965645f4947415f50726f66657373696f6e616c2d3030463246453f7374796c653d666c61742d737175617265266c6f676f3d736869656c64266c6f676f436f6c6f723d626c61636b",
+      "alt": "Saviynt Certified",
+      "complete": true,
+      "naturalWidth": 202,
+      "naturalHeight": 20,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/372aaa73cc676ce515cf0f7d82e5f9aaab29bc4db86b67aa0c49badcd3fa165e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f49534143412d43524953435f4365727469666965645f5269736b5f4c65616465722d3135383033443f7374796c653d666c61742d737175617265266c6f676f3d636865636b6d617278266c6f676f436f6c6f723d7768697465",
+      "alt": "ISACA CRISC",
+      "complete": true,
+      "naturalWidth": 225,
+      "naturalHeight": 20,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/0cee6470e25edaa691abb2d65f7745447f782f67b3d2738219dda7cf2effd4b5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f49534f2532464945435f32373030312d4c6561645f41756469746f722d3337333041333f7374796c653d666c61742d737175617265266c6f676f3d7365637572697479266c6f676f436f6c6f723d7768697465",
+      "alt": "ISO 27001",
+      "complete": true,
+      "naturalWidth": 174,
+      "naturalHeight": 20,
+      "broken": false
+    },
+    {
+      "src": "https://camo.githubusercontent.com/6848a88282903b751727617e313d43dde66ef409f7e226235ebd950c7e48d4a8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d2e546563682d43796265725f53656375726974795f284e465355292d3745323243453f7374796c653d666c61742d737175617265266c6f676f3d61636164656d6961266c6f676f436f6c6f723d7768697465",
+      "alt": "M.Tech",
+      "complete": true,
+      "naturalWidth": 201,
+      "naturalHeight": 20,
+      "broken": false
+    }
+  ],
+  "consoleErrors": []
+}

@@ -1,0 +1,34 @@
+name: Profile Pipeline CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-and-build:
+    name: Validate Profile Data & Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Validation & Security Audit
+        run: |
+          python3 scripts/validate.py
+
+      - name: Run Full Build Pipeline
+        run: |
+          python3 scripts/build.py
+
+      - name: Check for Clean Working Tree
+        run: |
+          git status --porcelain
+          git diff --exit-code || (echo "❌ Uncommitted changes detected after build. Run ./scripts/build and commit changes." && exit 1)

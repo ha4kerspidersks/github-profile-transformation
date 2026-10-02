@@ -1,0 +1,30 @@
+[
+  {
+    "id": "saviynt_certified",
+    "name": "Saviynt Certified IGA Professional",
+    "issuer": "Saviynt",
+    "badgeUrl": "https://img.shields.io/badge/Saviynt-Certified_IGA_Professional-00F2FE?style=flat-square&logo=shield&logoColor=black",
+    "verificationUrl": "https://saviynt.com"
+  },
+  {
+    "id": "isaca_crisc",
+    "name": "ISACA CRISC Certified Risk Leader",
+    "issuer": "ISACA",
+    "badgeUrl": "https://img.shields.io/badge/ISACA-CRISC_Certified_Risk_Leader-15803D?style=flat-square&logo=checkmarx&logoColor=white",
+    "verificationUrl": "https://www.isaca.org/credentialing/crisc"
+  },
+  {
+    "id": "iso_27001",
+    "name": "ISO/IEC 27001 Lead Auditor",
+    "issuer": "ISO/IEC",
+    "badgeUrl": "https://img.shields.io/badge/ISO%2FIEC_27001-Lead_Auditor-3730A3?style=flat-square&logo=security&logoColor=white",
+    "verificationUrl": "https://subhajitkar.com"
+  },
+  {
+    "id": "mtech_nfsu",
+    "name": "M.Tech Cyber Security (NFSU)",
+    "issuer": "National Forensic Sciences University",
+    "badgeUrl": "https://img.shields.io/badge/M.Tech-Cyber_Security_(NFSU)-7E22CE?style=flat-square&logo=academia&logoColor=white",
+    "verificationUrl": "https://subhajitkar.com"
+  }
+]

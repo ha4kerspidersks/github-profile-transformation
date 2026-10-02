@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 176" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="40%" stop-color="#0B1324"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="tsAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#FFDB70"/>
+    </linearGradient>
+    <pattern id="tsGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <!-- 3D Card Shadows & Elevated Container -->
+  <rect x="0" y="8" width="1200" height="168" rx="14" fill="#000000" opacity="0.5"/>
+  <rect x="0" y="4" width="1200" height="168" rx="14" fill="#050811" stroke="#334155" stroke-opacity="0.4" stroke-width="1.2"/>
+  <rect x="0" y="0" width="1200" height="170" rx="14" fill="url(#tsBg)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="0" y="0" width="1200" height="170" rx="14" fill="url(#tsGrid)"/>
+  <rect x="0" y="0" width="1200" height="3.5" rx="1.5" fill="url(#tsAccent)"/>
+
+  <!-- Top Glass Highlight -->
+  <path d="M 40 2 L 1160 2" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1.2" stroke-linecap="round"/>
+
+  <g transform="translate(48, 0)">
+    <!-- Top Meta Tag -->
+    <g transform="translate(0, 24)">
+      <rect width="320" height="24" rx="12" fill="#111D38" stroke="#1E3A5F" stroke-width="1"/>
+      <circle cx="14" cy="12" r="4" fill="#00F2FE"/>
+      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#93C5FD" letter-spacing="1.5">• 3D TECHNOLOGY WALL • 56 LOGOS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">
+      TECHNOLOGY ECOSYSTEM <tspan font-size="17" font-weight="500" fill="#94A3B8">/ 56 Verified Production Technologies Across 8 Disciplines</tspan>
+    </text>
+
+    <!-- Category Filter Pills Strip (All 8 Categories) -->
+    <g transform="translate(0, 112)">
+      <!-- All Skills (56) -->
+      <rect x="0" y="0" width="105" height="28" rx="14" fill="#222016" stroke="#FFDB70" stroke-width="1.2"/>
+      <circle cx="12" cy="14" r="3.5" fill="#FFDB70"/>
+      <text x="22" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#FFDB70">ALL (56)</text>
+
+      <!-- IAM / IGA (8) -->
+      <rect x="115" y="0" width="112" height="28" rx="14" fill="#082433" stroke="#00F2FE" stroke-width="1"/>
+      <circle cx="127" cy="14" r="3.5" fill="#00F2FE"/>
+      <text x="136" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#38BDF8">IAM / IGA (8)</text>
+
+      <!-- Data & Automation (7) -->
+      <rect x="237" y="0" width="168" height="28" rx="14" fill="#0E1F38" stroke="#336791" stroke-width="1"/>
+      <circle cx="249" cy="14" r="3.5" fill="#336791"/>
+      <text x="258" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#93C5FD">DATA &amp; AUTO (7)</text>
+
+      <!-- AI & Agentic AI (4) -->
+      <rect x="415" y="0" width="145" height="28" rx="14" fill="#211233" stroke="#A855F7" stroke-width="1"/>
+      <circle cx="427" cy="14" r="3.5" fill="#A855F7"/>
+      <text x="436" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#D8B4FE">AGENTIC AI (4)</text>
+
+      <!-- Cloud (4) -->
+      <rect x="570" y="0" width="95" height="28" rx="14" fill="#2B1B0D" stroke="#FF9900" stroke-width="1"/>
+      <circle cx="582" cy="14" r="3.5" fill="#FF9900"/>
+      <text x="591" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#FDBA74">CLOUD (4)</text>
+
+      <!-- DevOps (8) -->
+      <rect x="675" y="0" width="105" height="28" rx="14" fill="#0E2138" stroke="#2496ED" stroke-width="1"/>
+      <circle cx="687" cy="14" r="3.5" fill="#2496ED"/>
+      <text x="696" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#60A5FA">DEVOPS (8)</text>
+
+      <!-- Security (5) -->
+      <rect x="790" y="0" width="112" height="28" rx="14" fill="#0D261C" stroke="#10B981" stroke-width="1"/>
+      <circle cx="802" cy="14" r="3.5" fill="#10B981"/>
+      <text x="811" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#6EE7B7">SECURITY (5)</text>
+
+      <!-- Programming (15) -->
+      <rect x="912" y="0" width="80" height="28" rx="14" fill="#0E2235" stroke="#3776AB" stroke-width="1"/>
+      <text x="922" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#7DD3FC">DEV (15)</text>
+
+      <!-- Enterprise (5) -->
+      <rect x="1002" y="0" width="100" height="28" rx="14" fill="#152410" stroke="#81B441" stroke-width="1"/>
+      <circle cx="1014" cy="14" r="3.5" fill="#81B441"/>
+      <text x="1023" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#A3E635">ENTERPRISE (5)</text>
+    </g>
+  </g>
+</svg>
