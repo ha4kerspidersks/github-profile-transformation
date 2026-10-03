@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" width="100%" height="100%">
+  <defs>
+    <!-- Countertop Gradient -->
+    <linearGradient id="ckCounter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="30%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <!-- Induction Heat Glow -->
+    <radialGradient id="ckHeatGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity=".7"/>
+      <stop offset="40%" stop-color="#f97316" stop-opacity=".4"/>
+      <stop offset="80%" stop-color="#f59e0b" stop-opacity=".1"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Cast Iron Pan Shader -->
+    <radialGradient id="ckPanShade" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </radialGradient>
+    <!-- Chef Apron -->
+    <linearGradient id="ckApron" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <!-- Olive Oil Bottle -->
+    <linearGradient id="ckOilGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- KITCHEN COUNTERTOP & INDUCTION COOKTOP -->
+  <g id="kitchen_counter">
+    <polygon points="40,285 460,285 480,360 20,360" fill="url(#ckCounter)"/>
+    <line x1="40" y1="285" x2="460" y2="285" stroke="#334155" stroke-width="2.5"/>
+    <line x1="40" y1="287" x2="460" y2="287" stroke="#22d3ee" stroke-width="0.8" stroke-opacity=".5"/>
+
+    <!-- Glowing Induction Burner Ring -->
+    <g transform="translate(345, 305)">
+      <ellipse cx="0" cy="0" rx="60" ry="16" fill="url(#ckHeatGlow)"/>
+      <ellipse cx="0" cy="0" rx="55" ry="14" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="8,6" opacity=".8">
+        <animate attributeName="stroke-dashoffset" values="0; 28" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="0" rx="36" ry="9" fill="none" stroke="#f97316" stroke-width="1.8" stroke-dasharray="6,4" opacity=".85"/>
+      <ellipse cx="0" cy="0" rx="16" ry="4" fill="#fbbf24" opacity=".6">
+        <animate attributeName="opacity" values=".4; .8; .4" dur="1.8s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- Olive Oil Bottle & Pepper Mill on Left Counter -->
+    <g transform="translate(85, 245)">
+      <rect x="0" y="14" width="18" height="28" rx="3" fill="url(#ckOilGrad)"/>
+      <rect x="5" y="6" width="8" height="8" rx="1" fill="#cbd5e1" opacity=".8"/>
+      <rect x="6" y="0" width="6" height="6" rx="1" fill="#f59e0b"/>
+      <line x1="4" y1="20" x2="4" y2="38" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity=".5"/>
+      
+      <path d="M26 18 L38 18 L36 42 L28 42 Z" fill="#334155"/>
+      <circle cx="32" cy="14" r="4" fill="#64748b"/>
+    </g>
+  </g>
+
+  <!-- MALE CHEF: SUBHAJIT KAR -->
+  <g id="chef_character">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2.5; 0 0" dur="2s" repeatCount="indefinite" ease="ease-in-out"/>
+
+    <!-- LOWER BODY / LEGS BEHIND COUNTER -->
+    <path fill="#0f172a" d="M190 265 L190 325 L238 325 L238 265 Z"/>
+
+    <!-- LIFESTYLE DARK SHIRT WITH ROLLED-UP SLEEVES -->
+    <path fill="#1e293b" d="M176 136 C160 145 148 165 146 188 L162 194 C166 178 174 162 184 150 Z"/>
+    <path fill="#1e293b" d="M250 136 C266 145 278 165 280 188 L264 194 C260 178 252 162 242 150 Z"/>
+
+    <!-- FOREARMS WITH ROLLED SLEEVE CUFFS (ORGANIC BEZIER) -->
+    <!-- Left Forearm holding Tasting Spatula -->
+    <g id="left_arm">
+      <rect x="152" y="188" width="14" height="6" rx="2" fill="#334155" transform="rotate(15 152 188)"/>
+      <path fill="#cb7c4d" d="M160 194 C172 210 188 226 206 238 C211 234 210 226 204 220 C190 210 176 196 168 190 Z"/>
+      <path fill="#e6a277" d="M158 192 C170 208 186 224 204 236 C209 232 208 225 202 219 C188 209 174 195 166 188 Z"/>
+      <ellipse cx="208" cy="236" rx="6" ry="5.5" fill="#e6a277"/>
+      <!-- Wooden Chef Spatula -->
+      <line x1="204" y1="238" x2="266" y2="248" stroke="#d97706" stroke-width="3" stroke-linecap="round"/>
+      <polygon points="264,244 278,246 276,254 262,251" fill="#b45309"/>
+    </g>
+
+    <!-- Right Forearm holding Skillet Handle -->
+    <g id="right_arm">
+      <rect x="264" y="188" width="14" height="6" rx="2" fill="#334155" transform="rotate(-15 264 188)"/>
+      <path fill="#cb7c4d" d="M270 194 C280 210 292 226 306 240 C311 236 309 228 302 222 C290 210 280 198 272 190 Z"/>
+      <path fill="#e6a277" d="M268 192 C278 208 290 224 304 238 C309 234 307 227 300 221 C288 209 278 197 270 188 Z"/>
+      <ellipse cx="308" cy="238" rx="6.5" ry="6" fill="#e6a277"/>
+    </g>
+
+    <!-- CHEF APRON (TAILORED SLATE WITH CYAN ACCENTS) -->
+    <path d="M198 135 C198 146 230 146 230 135" stroke="#22d3ee" stroke-width="2.6" fill="none"/>
+    <path fill="url(#ckApron)" d="M192 142 L236 142 L250 185 L246 280 L182 280 L178 185 Z"/>
+    <path d="M192 142 L236 142 L250 185 L246 280 L182 280 L178 185 Z" stroke="#334155" stroke-width="1.2" fill="none"/>
+    <rect x="198" y="215" width="32" height="24" rx="3" fill="#151c2e" stroke="#22d3ee" stroke-width="1.2"/>
+    <path d="M208 218 L208 205 Q212 200 216 205 L216 218" stroke="#f59e0b" stroke-width="1.6" fill="#fbbf24"/>
+
+    <!-- HEAD -->
+    
+      <!-- SUBHAJIT KAR HEAD (3/4 ATHLETIC VIEW) -->
+      <g id="subhajit_head" transform="rotate(6 210 95)">
+        <!-- Neck -->
+        <path fill="#cb7c4d" d="M198 111 C196 123 194 137 192 143 L226 143 C224 135 222 121 220 111 Z"/>
+        <path fill="#e6a277" d="M200 111 C198 121 197 135 196 143 L223 143 C222 135 220 121 218 111 Z"/>
+        <path d="M206 119 Q202 131 200 143" stroke="#b45309" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".4"/>
+
+        <!-- Far Ear (Left) -->
+        <ellipse cx="183" cy="97" rx="4" ry="6" fill="#e6a277"/>
+        <path d="M182 94 C184 97 183 99 182 100" stroke="#cb7c4d" stroke-width="1.2" fill="none"/>
+
+        <!-- Face Base (Organic 3/4 Masculine Profile) -->
+        <path fill="#e6a277" d="M185 81 C183 101 192 119 211 122 C222 122 232 113 235 99 C238 87 235 71 228 61 C216 59 195 59 185 81 Z"/>
+        
+        <!-- Jaw & Cheek Shadow Structure -->
+        <path fill="#cb7c4d" d="M186 95 C185 109 194 119 211 122 C204 121 192 111 189 95 Z" opacity=".4"/>
+        <!-- Chin contour -->
+        <path d="M206 117 Q211 119 216 117" stroke="#b45309" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".4"/>
+
+        <!-- Neat Trimmed Stubble / Beard Shadow -->
+        <path fill="#0b0e1a" opacity=".12" d="M189 103 C192 116 200 121 211 121 C220 121 228 115 230 103 C228 112 218 118 211 119 C202 118 192 112 189 103 Z"/>
+
+        <!-- Eyebrows (Focused, masculine) -->
+        <path d="M189 79 Q196 74 204 79" stroke="#0b0e1a" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+        <path d="M212 79 Q220 74 229 78" stroke="#0b0e1a" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+
+        <!-- Eyes (Looking focused toward action) -->
+        <!-- Far Eye -->
+        <ellipse cx="197" cy="89" rx="4" ry="2.8" fill="#ffffff"/>
+        <circle cx="198" cy="89.5" r="2" fill="#0b0e1a"/>
+        <circle cx="199" cy="88.5" r="0.7" fill="#ffffff"/>
+
+        <!-- Near Eye (Larger) -->
+        <ellipse cx="220" cy="89" rx="4.8" ry="3.2" fill="#ffffff"/>
+        <circle cx="221.5" cy="89.5" r="2.3" fill="#0b0e1a"/>
+        <circle cx="222.5" cy="88.5" r="0.8" fill="#ffffff"/>
+
+        <!-- Nose (3/4 perspective) -->
+        <path d="M211 83 L214 99 L209 101" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+        <!-- Mouth -->
+        
+        <path d="M208 110 Q216 114 224 109" stroke="#78350f" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        <path d="M211 111 Q216 113 221 111" stroke="#a16207" stroke-width="1.2" stroke-linecap="round" fill="none" opacity=".5"/>
+    
+
+        <!-- Spectacles -->
+        
+        <!-- Modern Rectangular Tech Glasses (3/4 Perspective) -->
+        <g id="spectacles" opacity=".95">
+          <!-- Near Lens (Larger) -->
+          <rect x="208" y="83" width="22" height="15" rx="4" fill="#080c18" fill-opacity=".2" stroke="#0f172a" stroke-width="1.8"/>
+          <rect x="208" y="83" width="22" height="15" rx="4" fill="none" stroke="#22d3ee" stroke-width="0.8" stroke-opacity=".8"/>
+          <line x1="212" y1="87" x2="222" y2="87" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity=".6"/>
+
+          <!-- Far Lens (Foreshortened in 3/4 perspective) -->
+          <rect x="186" y="83" width="16" height="14" rx="3.5" fill="#080c18" fill-opacity=".2" stroke="#0f172a" stroke-width="1.8"/>
+          <rect x="186" y="83" width="16" height="14" rx="3.5" fill="none" stroke="#22d3ee" stroke-width="0.8" stroke-opacity=".8"/>
+          <line x1="189" y1="87" x2="195" y2="87" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity=".5"/>
+
+          <!-- Bridge -->
+          <path d="M202 89 Q205 87 208 89" stroke="#0f172a" stroke-width="2" fill="none"/>
+          <path d="M202 89 Q205 87 208 89" stroke="#22d3ee" stroke-width="1" stroke-opacity=".8" fill="none"/>
+
+          <!-- Temple arms to ears -->
+          <path d="M186 88 L181 89" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M230 88 L235 89" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+        </g>
+    
+
+        <!-- Canonical Male Short Fade Haircut (Subhajit Kar) -->
+        <!-- Temple Fade & Taper (Clean line above ear) -->
+        <path fill="#0b0e1a" d="M184 87 C182 75 188 61 200 55 L194 77 Z"/>
+        <!-- Dense Textured Top & Crown Volume -->
+        <path fill="#0b0e1a" d="M184 79 C180 57 198 47 214 47 C230 47 244 59 236 79 C230 67 220 59 208 61 C196 59 188 67 184 79 Z"/>
+        <!-- Subtle Wave Highlights -->
+        <path fill="#1e293b" d="M194 55 C204 49 222 49 232 59 C224 53 212 51 200 57 Z" opacity=".85"/>
+        <path d="M200 55 Q212 51 224 57" stroke="#334155" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".8"/>
+        <!-- Hairline Edge -->
+        <path fill="#0b0e1a" d="M186 73 C194 63 206 65 212 67 C218 65 228 63 234 73 C227 69 218 70 212 71 C204 70 194 69 186 73 Z"/>
+      </g>
+    
+  </g>
+
+  <!-- 🍳 ACTIVE PAN TOSS: CAST IRON SKILLET & FLIPPED INGREDIENTS -->
+  <g id="pan_and_toss">
+    <animateTransform attributeName="transform" type="rotate" values="0 315 250; -5 315 250; 0 315 250" dur="1.8s" repeatCount="indefinite" ease="ease-in-out"/>
+
+    <!-- Cast Iron Skillet -->
+    <g transform="translate(315, 248)">
+      <path d="M-8 -6 L-38 -14" stroke="#090d16" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-8 -6 L-38 -14" stroke="#475569" stroke-width="1.8" stroke-linecap="round" opacity=".6"/>
+      <circle cx="-38" cy="-14" r="2.5" fill="#e2e8f0" opacity=".5"/>
+
+      <ellipse cx="36" cy="4" rx="52" ry="18" fill="#090d16" stroke="#475569" stroke-width="1.5"/>
+      <ellipse cx="36" cy="5" rx="46" ry="14" fill="url(#ckPanShade)"/>
+      <ellipse cx="36" cy="6" rx="40" ry="10" fill="#451a03" opacity=".6"/>
+    </g>
+
+    <!-- AIRBORNE INGREDIENTS (ANIMATED TOSS) -->
+    <g transform="translate(351, 225)">
+      <animateTransform attributeName="transform" type="translate" values="351 225; 351 200; 351 225" dur="1.8s" repeatCount="indefinite" ease="ease-in-out"/>
+      
+      <path d="M-15 -4 Q-6 -14 6 -8" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <ellipse cx="14" cy="-12" rx="5" ry="3.5" fill="#f59e0b" transform="rotate(25 14 -12)"/>
+      <ellipse cx="-4" cy="-18" rx="4" ry="2.5" fill="#fbbf24"/>
+      <path fill="#10b981" d="M10 -2 C6 -8 10 -14 16 -12 C20 -8 16 -2 10 -2 Z"/>
+      <circle cx="-18" cy="-14" r="2.2" fill="#10b981"/>
+      <circle cx="24" cy="-6" r="2" fill="#ef4444"/>
+
+      <!-- Sizzle Sparkles -->
+      <circle cx="2" cy="-16" r="1.5" fill="#fde047">
+        <animate attributeName="opacity" values="0;1;0" dur="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="18" cy="-22" r="1.2" fill="#fde047">
+        <animate attributeName="opacity" values="1;0;1" dur="0.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- AROMATIC RISING STEAM CURLS -->
+  <g stroke="#ffffff" fill="none" stroke-linecap="round" opacity=".65">
+    <path d="M335 235 C320 195 340 165 330 125" stroke-width="2.4">
+      <animate attributeName="stroke-dasharray" values="40,80; 80,40" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; .75; 0" dur="2.4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -6 -20" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M357 238 C370 200 353 170 365 130" stroke-width="2.6">
+      <animate attributeName="stroke-dasharray" values="40,80; 80,40" dur="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; .85; 0" dur="2.1s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 6 -22" dur="2.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M375 240 C387 210 375 180 383 145" stroke-width="2">
+      <animate attributeName="stroke-dasharray" values="30,70; 70,30" dur="2.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; .6; 0" dur="2.7s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 4 -16" dur="2.7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+name: Developer Analytics 📊
+
+on:
+  schedule:
+    - cron: "0 18 * * *"     # Daily at 18:00 UTC
+  workflow_dispatch:          # Run manually from Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_developer_analytics.py"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-developer-analytics
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Generate Developer Analytics SVG
+        run: |
+          python3 scripts/generate_developer_analytics.py
+      - name: Commit & Push Updated Analytics SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/developer-analytics.svg
+          if git commit -m "chore(actions): regenerate developer analytics telemetry [skip ci]"; then
+            git push
+          fi

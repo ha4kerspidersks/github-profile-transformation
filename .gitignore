@@ -3,6 +3,7 @@
 Thumbs.db
 
 # Dependencies & Node
+node_modules
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -20,6 +21,8 @@ ENV/
 # Local Profile Repository Clone (Managed Separately)
 profile-repo/
 backups/
+research/reference-repo/
+reference-awesome-github-profile/
 
 # Security & Secrets (Strictly Excluded)
 .env

@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" width="100%" height="100%">
+  <defs>
+    <!-- Soccer Ball Radial Shader -->
+    <radialGradient id="fbBallShade" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </radialGradient>
+    <!-- Pitch Turf Radial Glow -->
+    <radialGradient id="fbTurfGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity=".45"/>
+      <stop offset="60%" stop-color="#059669" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#047857" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Football Jersey Gradient -->
+    <linearGradient id="fbJersey" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#151c2e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <!-- Cyan Strike Trail -->
+    <linearGradient id="fbSpeedTrail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- PITCH TURF & ATHLETIC SHADOW -->
+  <g id="pitch_ground">
+    <ellipse cx="230" cy="338" rx="145" ry="16" fill="url(#fbTurfGlow)"/>
+    <!-- Ground Foot Shadow -->
+    <ellipse cx="178" cy="336" rx="30" ry="6" fill="#022c22" opacity=".4"/>
+    <!-- Ball Shadow -->
+    <ellipse cx="365" cy="328" rx="26" ry="5" fill="#022c22" opacity=".25">
+      <animate attributeName="rx" values="26; 22; 26" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25; .18; .25" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- BALL SPEED BURST TRAILS -->
+  <g opacity=".85">
+    <path d="M285 278 C310 274 335 264 365 252" stroke="url(#fbSpeedTrail)" stroke-width="4.5" stroke-linecap="round" fill="none">
+      <animate attributeName="stroke-dasharray" values="10,60; 50,10; 10,60" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M280 290 C310 286 340 276 375 266" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".6">
+      <animate attributeName="stroke-dasharray" values="20,40; 60,10; 20,40" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M290 302 C320 300 345 292 370 282" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".5"/>
+  </g>
+
+  <!-- PLAYER CHARACTER: SUBHAJIT KAR -->
+  <g id="football_player">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="2s" repeatCount="indefinite" ease="ease-in-out"/>
+
+    <!-- LEFT SUPPORT LEG (ORGANIC HUMAN BEZIER ANATOMY) -->
+    <g id="support_leg">
+      <!-- Thigh -->
+      <path fill="#cb7c4d" d="M185 200 C180 216 174 238 172 258 C180 262 192 260 198 256 C202 236 206 215 208 200 Z"/>
+      <path fill="#e6a277" d="M183 200 C178 218 174 240 174 257 C181 260 190 259 196 256 C200 238 204 218 206 200 Z"/>
+      <!-- Knee & Calf -->
+      <path fill="#cb7c4d" d="M172 258 C168 276 168 298 170 318 C176 321 184 321 188 318 C192 300 194 278 198 256 Z"/>
+      <path fill="#e6a277" d="M174 257 C171 274 171 296 173 318 C177 320 184 320 186 318 C190 300 192 278 196 256 Z"/>
+      <!-- White Football Sock with Cyan Band -->
+      <path fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.8" d="M170 295 C169 305 170 316 171 324 L189 324 C190 316 190 305 189 295 Z"/>
+      <line x1="170" y1="300" x2="189" y2="300" stroke="#22d3ee" stroke-width="2"/>
+      <!-- Planted Football Boot / Cleat -->
+      <path fill="#0f172a" d="M169 322 C165 325 158 329 152 332 C150 334 153 336 160 336 L194 336 C197 336 198 333 196 330 C193 325 188 322 184 322 Z"/>
+      <path fill="#22d3ee" d="M164 332 L184 330 L186 333 L166 335 Z"/>
+      <rect x="156" y="336" width="4" height="3" rx="1" fill="#22d3ee"/>
+      <rect x="170" y="336" width="4" height="3" rx="1" fill="#cbd5e1"/>
+      <rect x="188" y="336" width="4" height="3" rx="1" fill="#22d3ee"/>
+    </g>
+
+    <!-- RIGHT KICKING LEG (SWEPT IN DYNAMIC VOLLEY STRIKE) -->
+    <g id="kicking_leg">
+      <!-- Thigh extending diagonally backward to forward -->
+      <path fill="#cb7c4d" d="M218 198 C232 208 258 226 278 240 C284 234 280 224 272 218 C252 202 232 194 222 194 Z"/>
+      <path fill="#e6a277" d="M216 196 C230 206 256 224 276 238 C281 233 278 224 270 217 C250 201 230 193 220 193 Z"/>
+      <!-- Calf sweeping explosively forward into the ball -->
+      <path fill="#cb7c4d" d="M278 240 C294 246 314 258 330 272 C334 266 330 256 322 250 C306 238 290 230 278 240 Z"/>
+      <path fill="#e6a277" d="M276 238 C292 244 312 256 328 270 C332 265 328 256 320 249 C304 237 288 229 276 238 Z"/>
+      <!-- Sock -->
+      <path fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.8" d="M312 258 L330 272 L338 266 L320 252 Z"/>
+      <line x1="316" y1="260" x2="324" y2="254" stroke="#22d3ee" stroke-width="2"/>
+      <!-- Striking Cleat (Volleying through the ball) -->
+      <path fill="#0f172a" d="M328 268 C334 272 346 278 358 282 C362 284 364 282 360 278 L342 260 C338 256 332 256 328 260 Z"/>
+      <path fill="#22d3ee" d="M336 270 L356 278 L354 281 L334 273 Z"/>
+      <polygon points="344,282 347,287 350,283" fill="#22d3ee"/>
+      <polygon points="356,284 359,288 362,285" fill="#cbd5e1"/>
+    </g>
+
+    <!-- ATHLETIC APPAREL -->
+    <!-- Match Shorts -->
+    <path fill="#151c2e" d="M186 182 C180 192 176 210 178 218 L208 215 L214 202 L224 213 L248 202 C246 193 238 183 228 181 Z"/>
+    <path d="M178 217 L206 214" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M224 212 L246 201" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- Football Jersey (Navy & Electric Cyan #10) -->
+    <path fill="url(#fbJersey)" d="M182 135 C174 148 170 168 182 188 C192 190 226 188 232 184 C239 166 238 146 234 135 C224 132 194 132 182 135 Z"/>
+    <!-- Cyan Aerodynamic Side Panels -->
+    <path fill="#22d3ee" d="M182 135 C178 150 176 170 182 188 C186 188 187 180 186 166 C185 150 188 138 190 135 Z" opacity=".9"/>
+    <path fill="#22d3ee" d="M234 135 C238 150 238 170 232 184 C228 184 227 178 228 166 C229 150 227 138 225 135 Z" opacity=".9"/>
+    <!-- Collar V-Neck -->
+    <path d="M202 134 L208 144 L214 134" stroke="#22d3ee" stroke-width="2" fill="none"/>
+    <!-- Subhajit #10 on Jersey -->
+    <text x="208" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="15" fill="#ffffff" text-anchor="middle" letter-spacing="1">10</text>
+
+    <!-- LEFT ARM (EXTENDED FOR BALANCE) -->
+    <path fill="#cb7c4d" d="M182 140 C169 146 152 156 140 168 C139 174 145 178 151 174 C163 164 176 154 186 150 Z"/>
+    <path fill="#e6a277" d="M180 138 C167 144 150 154 139 166 C138 172 143 176 149 172 C161 162 174 152 184 148 Z"/>
+    <ellipse cx="136" cy="170" rx="5.5" ry="4.5" fill="#e6a277"/>
+
+    <!-- RIGHT ARM (PULLED BACK IN SHOOTING RHYTHM) -->
+    <path fill="#cb7c4d" d="M232 142 C246 146 262 154 274 166 C278 172 274 178 268 175 C256 165 244 156 232 152 Z"/>
+    <path fill="#e6a277" d="M230 140 C244 144 260 152 272 164 C276 170 272 176 266 173 C254 163 242 154 230 150 Z"/>
+    <ellipse cx="276" cy="170" rx="5.5" ry="4.5" fill="#e6a277"/>
+
+    <!-- HEAD -->
+    
+      <!-- SUBHAJIT KAR HEAD (3/4 ATHLETIC VIEW) -->
+      <g id="subhajit_head" transform="rotate(8 205 95)">
+        <!-- Neck -->
+        <path fill="#cb7c4d" d="M193 111 C191 123 189 137 187 143 L221 143 C219 135 217 121 215 111 Z"/>
+        <path fill="#e6a277" d="M195 111 C193 121 192 135 191 143 L218 143 C217 135 215 121 213 111 Z"/>
+        <path d="M201 119 Q197 131 195 143" stroke="#b45309" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".4"/>
+
+        <!-- Far Ear (Left) -->
+        <ellipse cx="178" cy="97" rx="4" ry="6" fill="#e6a277"/>
+        <path d="M177 94 C179 97 178 99 177 100" stroke="#cb7c4d" stroke-width="1.2" fill="none"/>
+
+        <!-- Face Base (Organic 3/4 Masculine Profile) -->
+        <path fill="#e6a277" d="M180 81 C178 101 187 119 206 122 C217 122 227 113 230 99 C233 87 230 71 223 61 C211 59 190 59 180 81 Z"/>
+        
+        <!-- Jaw & Cheek Shadow Structure -->
+        <path fill="#cb7c4d" d="M181 95 C180 109 189 119 206 122 C199 121 187 111 184 95 Z" opacity=".4"/>
+        <!-- Chin contour -->
+        <path d="M201 117 Q206 119 211 117" stroke="#b45309" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".4"/>
+
+        <!-- Neat Trimmed Stubble / Beard Shadow -->
+        <path fill="#0b0e1a" opacity=".12" d="M184 103 C187 116 195 121 206 121 C215 121 223 115 225 103 C223 112 213 118 206 119 C197 118 187 112 184 103 Z"/>
+
+        <!-- Eyebrows (Focused, masculine) -->
+        <path d="M184 79 Q191 74 199 79" stroke="#0b0e1a" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+        <path d="M207 79 Q215 74 224 78" stroke="#0b0e1a" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+
+        <!-- Eyes (Looking focused toward action) -->
+        <!-- Far Eye -->
+        <ellipse cx="192" cy="89" rx="4" ry="2.8" fill="#ffffff"/>
+        <circle cx="193" cy="89.5" r="2" fill="#0b0e1a"/>
+        <circle cx="194" cy="88.5" r="0.7" fill="#ffffff"/>
+
+        <!-- Near Eye (Larger) -->
+        <ellipse cx="215" cy="89" rx="4.8" ry="3.2" fill="#ffffff"/>
+        <circle cx="216.5" cy="89.5" r="2.3" fill="#0b0e1a"/>
+        <circle cx="217.5" cy="88.5" r="0.8" fill="#ffffff"/>
+
+        <!-- Nose (3/4 perspective) -->
+        <path d="M206 83 L209 99 L204 101" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+        <!-- Mouth -->
+        
+        <path d="M203 110 Q210 112 217 108" stroke="#78350f" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+    
+
+        <!-- Spectacles -->
+        
+        <!-- Modern Rectangular Tech Glasses (3/4 Perspective) -->
+        <g id="spectacles" opacity=".95">
+          <!-- Near Lens (Larger) -->
+          <rect x="203" y="83" width="22" height="15" rx="4" fill="#080c18" fill-opacity=".2" stroke="#0f172a" stroke-width="1.8"/>
+          <rect x="203" y="83" width="22" height="15" rx="4" fill="none" stroke="#22d3ee" stroke-width="0.8" stroke-opacity=".8"/>
+          <line x1="207" y1="87" x2="217" y2="87" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity=".6"/>
+
+          <!-- Far Lens (Foreshortened in 3/4 perspective) -->
+          <rect x="181" y="83" width="16" height="14" rx="3.5" fill="#080c18" fill-opacity=".2" stroke="#0f172a" stroke-width="1.8"/>
+          <rect x="181" y="83" width="16" height="14" rx="3.5" fill="none" stroke="#22d3ee" stroke-width="0.8" stroke-opacity=".8"/>
+          <line x1="184" y1="87" x2="190" y2="87" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity=".5"/>
+
+          <!-- Bridge -->
+          <path d="M197 89 Q200 87 203 89" stroke="#0f172a" stroke-width="2" fill="none"/>
+          <path d="M197 89 Q200 87 203 89" stroke="#22d3ee" stroke-width="1" stroke-opacity=".8" fill="none"/>
+
+          <!-- Temple arms to ears -->
+          <path d="M181 88 L176 89" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+          <path d="M225 88 L230 89" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+        </g>
+    
+
+        <!-- Canonical Male Short Fade Haircut (Subhajit Kar) -->
+        <!-- Temple Fade & Taper (Clean line above ear) -->
+        <path fill="#0b0e1a" d="M179 87 C177 75 183 61 195 55 L189 77 Z"/>
+        <!-- Dense Textured Top & Crown Volume -->
+        <path fill="#0b0e1a" d="M179 79 C175 57 193 47 209 47 C225 47 239 59 231 79 C225 67 215 59 203 61 C191 59 183 67 179 79 Z"/>
+        <!-- Subtle Wave Highlights -->
+        <path fill="#1e293b" d="M189 55 C199 49 217 49 227 59 C219 53 207 51 195 57 Z" opacity=".85"/>
+        <path d="M195 55 Q207 51 219 57" stroke="#334155" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".8"/>
+        <!-- Hairline Edge -->
+        <path fill="#0b0e1a" d="M181 73 C189 63 201 65 207 67 C213 65 223 63 229 73 C222 69 213 70 207 71 C199 70 189 69 181 73 Z"/>
+      </g>
+    
+  </g>
+
+  <!-- ⚽ REGULATION 32-PANEL SOCCER BALL (ANIMATED VOLLEY STRIKE) -->
+  <g id="soccer_ball" transform="translate(365, 255)">
+    <animateTransform attributeName="transform" type="translate" values="365 255; 372 248; 365 255" dur="2s" repeatCount="indefinite" ease="ease-in-out"/>
+    
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="3s" repeatCount="indefinite"/>
+      <!-- Sphere Base -->
+      <circle cx="0" cy="0" r="28" fill="url(#fbBallShade)" stroke="#0f172a" stroke-width="1.2"/>
+      
+      <!-- Central Black Pentagon -->
+      <polygon points="0,-10 9.5,-3 5.9,8 -5.9,8 -9.5,-3" fill="#0f172a"/>
+      
+      <!-- Seam lines radiating from central pentagon -->
+      <line x1="0" y1="-10" x2="0" y2="-20" stroke="#0f172a" stroke-width="1.4"/>
+      <line x1="9.5" y1="-3" x2="19" y2="-7" stroke="#0f172a" stroke-width="1.4"/>
+      <line x1="5.9" y1="8" x2="14" y2="18" stroke="#0f172a" stroke-width="1.4"/>
+      <line x1="-5.9" y1="8" x2="-14" y2="18" stroke="#0f172a" stroke-width="1.4"/>
+      <line x1="-9.5" y1="-3" x2="-19" y2="-7" stroke="#0f172a" stroke-width="1.4"/>
+
+      <!-- Peripheral Black Patches -->
+      <polygon points="-7,-22 0,-20 7,-22 5,-28 -5,-28" fill="#0f172a"/>
+      <polygon points="19,-7 25,-12 28,-4 22,2" fill="#0f172a"/>
+      <polygon points="14,18 22,20 20,26 12,24" fill="#0f172a"/>
+      <polygon points="-14,18 -22,20 -20,26 -12,24" fill="#0f172a"/>
+      <polygon points="-19,-7 -25,-12 -28,-4 -22,2" fill="#0f172a"/>
+
+      <!-- Specular Highlight -->
+      <ellipse cx="-8" cy="-8" rx="7" ry="4" fill="#ffffff" opacity=".5" transform="rotate(-30 -8 -8)"/>
+    </g>
+  </g>
+
+  <!-- TURF KICK-UP PARTICLES -->
+  <g>
+    <circle cx="348" cy="260" r="2.2" fill="#fde047">
+      <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="338" cy="274" r="1.6" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M178 335 Q182 324 188 322" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M174 336 Q170 326 166 324" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

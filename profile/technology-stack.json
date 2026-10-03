@@ -11,7 +11,11 @@
     "logoPath": "assets/skills/logos/saviynt/saviynt.svg",
     "cardPath": "assets/skills/cards/saviynt.svg",
     "displayOrder": 1,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Saviynt IGA Enterprise",
+    "logo_source": "assets/skills/logos/saviynt/saviynt.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "entra_id",
@@ -25,7 +29,11 @@
     "logoPath": "assets/skills/logos/microsoft-entra/entra-id.svg",
     "cardPath": "assets/skills/cards/entra_id.svg",
     "displayOrder": 2,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Microsoft Entra ID",
+    "logo_source": "assets/skills/logos/microsoft-entra/entra-id.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "active_directory",
@@ -39,7 +47,11 @@
     "logoPath": "assets/skills/logos/active-directory/active-directory.svg",
     "cardPath": "assets/skills/cards/active_directory.svg",
     "displayOrder": 3,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Active Directory (AD DS / LDAP)",
+    "logo_source": "assets/skills/logos/active-directory/active-directory.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "sod_matrix",
@@ -53,7 +65,11 @@
     "logoPath": "assets/skills/logos/sod/sod.svg",
     "cardPath": "assets/skills/cards/sod_matrix.svg",
     "displayOrder": 4,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Segregation of Duties (SoD) & RBAC",
+    "logo_source": "assets/skills/logos/sod/sod.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "jml_workflows",
@@ -67,7 +83,11 @@
     "logoPath": "assets/skills/logos/jml/jml.svg",
     "cardPath": "assets/skills/cards/jml_workflows.svg",
     "displayOrder": 5,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Joiner-Mover-Leaver (JML) Workflows",
+    "logo_source": "assets/skills/logos/jml/jml.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "okta",
@@ -81,7 +101,11 @@
     "logoPath": "assets/skills/logos/okta/okta.svg",
     "cardPath": "assets/skills/cards/okta.svg",
     "displayOrder": 6,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Okta Workforce Identity",
+    "logo_source": "assets/skills/logos/okta/okta.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "oauth_oidc",
@@ -95,7 +119,11 @@
     "logoPath": "assets/skills/logos/oauth/oauth.svg",
     "cardPath": "assets/skills/cards/oauth_oidc.svg",
     "displayOrder": 7,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "OAuth 2.0 / SAML / OIDC",
+    "logo_source": "assets/skills/logos/oauth/oauth.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "fido2_mfa",
@@ -109,7 +137,11 @@
     "logoPath": "assets/skills/logos/fido2/fido2.svg",
     "cardPath": "assets/skills/cards/fido2_mfa.svg",
     "displayOrder": 8,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "FIDO2 / WebAuthn & Adaptive MFA",
+    "logo_source": "assets/skills/logos/fido2/fido2.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "reconciliation",
@@ -123,7 +155,11 @@
     "logoPath": "assets/skills/logos/reconciliation/reconciliation.svg",
     "cardPath": "assets/skills/cards/reconciliation.svg",
     "displayOrder": 9,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "300K+ Enterprise Data Reconciliation",
+    "logo_source": "assets/skills/logos/reconciliation/reconciliation.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "python",
@@ -137,7 +173,11 @@
     "logoPath": "assets/skills/logos/python/python.svg",
     "cardPath": "assets/skills/cards/python.svg",
     "displayOrder": 10,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Python",
+    "logo_source": "assets/skills/logos/python/python.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "snowflake",
@@ -151,7 +191,11 @@
     "logoPath": "assets/skills/logos/snowflake/snowflake.svg",
     "cardPath": "assets/skills/cards/snowflake.svg",
     "displayOrder": 11,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Snowflake Identity Analytics",
+    "logo_source": "assets/skills/logos/snowflake/snowflake.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "postgresql",
@@ -165,7 +209,11 @@
     "logoPath": "assets/skills/logos/postgresql/postgresql.svg",
     "cardPath": "assets/skills/cards/postgresql.svg",
     "displayOrder": 12,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "PostgreSQL / Relational SQL",
+    "logo_source": "assets/skills/logos/postgresql/postgresql.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "mysql",
@@ -179,7 +227,11 @@
     "logoPath": "assets/skills/logos/mysql/mysql.svg",
     "cardPath": "assets/skills/cards/mysql.svg",
     "displayOrder": 13,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "MySQL Relational Database",
+    "logo_source": "assets/skills/logos/mysql/mysql.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "mongodb",
@@ -193,7 +245,11 @@
     "logoPath": "assets/skills/logos/mongodb/mongodb.svg",
     "cardPath": "assets/skills/cards/mongodb.svg",
     "displayOrder": 14,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "MongoDB NoSQL",
+    "logo_source": "assets/skills/logos/mongodb/mongodb.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "redis",
@@ -207,7 +263,11 @@
     "logoPath": "assets/skills/logos/redis/redis.svg",
     "cardPath": "assets/skills/cards/redis.svg",
     "displayOrder": 15,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Redis In-Memory Data Store",
+    "logo_source": "assets/skills/logos/redis/redis.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "agentic_ai",
@@ -221,7 +281,11 @@
     "logoPath": "assets/skills/logos/agentic-ai/agentic-ai.svg",
     "cardPath": "assets/skills/cards/agentic_ai.svg",
     "displayOrder": 16,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Agentic AI & Multi-Agent Systems",
+    "logo_source": "assets/skills/logos/agentic-ai/agentic-ai.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "mcp",
@@ -235,7 +299,11 @@
     "logoPath": "assets/skills/logos/mcp/mcp.svg",
     "cardPath": "assets/skills/cards/mcp.svg",
     "displayOrder": 17,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Model Context Protocol (MCP)",
+    "logo_source": "assets/skills/logos/mcp/mcp.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "llm_engineering",
@@ -249,7 +317,11 @@
     "logoPath": "assets/skills/logos/llm/llm.svg",
     "cardPath": "assets/skills/cards/llm_engineering.svg",
     "displayOrder": 18,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "LLM Integration & Prompt Engineering",
+    "logo_source": "assets/skills/logos/llm/llm.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "ai_workflows",
@@ -263,7 +335,11 @@
     "logoPath": "assets/skills/logos/ai-workflows/ai-workflows.svg",
     "cardPath": "assets/skills/cards/ai_workflows.svg",
     "displayOrder": 19,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "AI Workflows & Developer Tooling",
+    "logo_source": "assets/skills/logos/ai-workflows/ai-workflows.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "aws",
@@ -277,7 +353,11 @@
     "logoPath": "assets/skills/logos/aws/aws.svg",
     "cardPath": "assets/skills/cards/aws.svg",
     "displayOrder": 20,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "AWS Cloud IAM & Security",
+    "logo_source": "assets/skills/logos/aws/aws.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "azure",
@@ -291,7 +371,11 @@
     "logoPath": "assets/skills/logos/azure/azure.svg",
     "cardPath": "assets/skills/cards/azure.svg",
     "displayOrder": 21,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Microsoft Azure Cloud",
+    "logo_source": "assets/skills/logos/azure/azure.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "firebase",
@@ -305,7 +389,11 @@
     "logoPath": "assets/skills/logos/firebase/firebase.svg",
     "cardPath": "assets/skills/cards/firebase.svg",
     "displayOrder": 22,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Google Firebase Platform",
+    "logo_source": "assets/skills/logos/firebase/firebase.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "vercel",
@@ -319,7 +407,11 @@
     "logoPath": "assets/skills/logos/vercel/vercel.svg",
     "cardPath": "assets/skills/cards/vercel.svg",
     "displayOrder": 23,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Vercel Edge Platform",
+    "logo_source": "assets/skills/logos/vercel/vercel.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "docker",
@@ -333,7 +425,11 @@
     "logoPath": "assets/skills/logos/docker/docker.svg",
     "cardPath": "assets/skills/cards/docker.svg",
     "displayOrder": 24,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Docker Containers",
+    "logo_source": "assets/skills/logos/docker/docker.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "jenkins",
@@ -347,7 +443,11 @@
     "logoPath": "assets/skills/logos/jenkins/jenkins.svg",
     "cardPath": "assets/skills/cards/jenkins.svg",
     "displayOrder": 25,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Jenkins CI/CD Automation",
+    "logo_source": "assets/skills/logos/jenkins/jenkins.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "git",
@@ -361,7 +461,11 @@
     "logoPath": "assets/skills/logos/git/git.svg",
     "cardPath": "assets/skills/cards/git.svg",
     "displayOrder": 26,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Git Version Control",
+    "logo_source": "assets/skills/logos/git/git.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "github",
@@ -375,7 +479,11 @@
     "logoPath": "assets/skills/logos/github/github.svg",
     "cardPath": "assets/skills/cards/github.svg",
     "displayOrder": 27,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "GitHub Enterprise",
+    "logo_source": "assets/skills/logos/github/github.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "linux",
@@ -389,7 +497,11 @@
     "logoPath": "assets/skills/logos/linux/linux.svg",
     "cardPath": "assets/skills/cards/linux.svg",
     "displayOrder": 28,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Linux (Kali / Ubuntu)",
+    "logo_source": "assets/skills/logos/linux/linux.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "bash",
@@ -403,7 +515,11 @@
     "logoPath": "assets/skills/logos/bash/bash.svg",
     "cardPath": "assets/skills/cards/bash.svg",
     "displayOrder": 29,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "GNU Bash / Shell Scripting",
+    "logo_source": "assets/skills/logos/bash/bash.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "vite",
@@ -417,7 +533,11 @@
     "logoPath": "assets/skills/logos/vite/vite.svg",
     "cardPath": "assets/skills/cards/vite.svg",
     "displayOrder": 30,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Vite Build Engine",
+    "logo_source": "assets/skills/logos/vite/vite.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "vscode",
@@ -431,7 +551,11 @@
     "logoPath": "assets/skills/logos/vscode/vscode.svg",
     "cardPath": "assets/skills/cards/vscode.svg",
     "displayOrder": 31,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Visual Studio Code",
+    "logo_source": "assets/skills/logos/vscode/vscode.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "zero_trust",
@@ -445,7 +569,11 @@
     "logoPath": "assets/skills/logos/zero-trust/zero-trust.svg",
     "cardPath": "assets/skills/cards/zero_trust.svg",
     "displayOrder": 32,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Zero Trust Architecture",
+    "logo_source": "assets/skills/logos/zero-trust/zero-trust.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "cyberark",
@@ -459,7 +587,11 @@
     "logoPath": "assets/skills/logos/cyberark/cyberark.svg",
     "cardPath": "assets/skills/cards/cyberark.svg",
     "displayOrder": 33,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "CyberArk PAM",
+    "logo_source": "assets/skills/logos/cyberark/cyberark.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "owasp",
@@ -473,7 +605,11 @@
     "logoPath": "assets/skills/logos/owasp/owasp.svg",
     "cardPath": "assets/skills/cards/owasp.svg",
     "displayOrder": 34,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "OWASP Security & AppSec",
+    "logo_source": "assets/skills/logos/owasp/owasp.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "burpsuite",
@@ -487,7 +623,11 @@
     "logoPath": "assets/skills/logos/burpsuite/burpsuite.svg",
     "cardPath": "assets/skills/cards/burpsuite.svg",
     "displayOrder": 35,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "PortSwigger Burp Suite",
+    "logo_source": "assets/skills/logos/burpsuite/burpsuite.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "wireshark",
@@ -501,7 +641,11 @@
     "logoPath": "assets/skills/logos/wireshark/wireshark.svg",
     "cardPath": "assets/skills/cards/wireshark.svg",
     "displayOrder": 36,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Wireshark Network Analysis",
+    "logo_source": "assets/skills/logos/wireshark/wireshark.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "java",
@@ -515,7 +659,11 @@
     "logoPath": "assets/skills/logos/java/java.svg",
     "cardPath": "assets/skills/cards/java.svg",
     "displayOrder": 37,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Java SE / Enterprise Backend",
+    "logo_source": "assets/skills/logos/java/java.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "javascript",
@@ -529,7 +677,11 @@
     "logoPath": "assets/skills/logos/javascript/javascript.svg",
     "cardPath": "assets/skills/cards/javascript.svg",
     "displayOrder": 38,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "JavaScript (ES6+)",
+    "logo_source": "assets/skills/logos/javascript/javascript.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "typescript",
@@ -543,7 +695,11 @@
     "logoPath": "assets/skills/logos/typescript/typescript.svg",
     "cardPath": "assets/skills/cards/typescript.svg",
     "displayOrder": 39,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "TypeScript",
+    "logo_source": "assets/skills/logos/typescript/typescript.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "nodejs",
@@ -557,7 +713,11 @@
     "logoPath": "assets/skills/logos/nodejs/nodejs.svg",
     "cardPath": "assets/skills/cards/nodejs.svg",
     "displayOrder": 40,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Node.js Backend Runtime",
+    "logo_source": "assets/skills/logos/nodejs/nodejs.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "react",
@@ -571,7 +731,11 @@
     "logoPath": "assets/skills/logos/react/react.svg",
     "cardPath": "assets/skills/cards/react.svg",
     "displayOrder": 41,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "React 18 / Ecosystem",
+    "logo_source": "assets/skills/logos/react/react.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "nextjs",
@@ -585,7 +749,11 @@
     "logoPath": "assets/skills/logos/nextjs/nextjs.svg",
     "cardPath": "assets/skills/cards/nextjs.svg",
     "displayOrder": 42,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Next.js App Router",
+    "logo_source": "assets/skills/logos/nextjs/nextjs.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "fastapi",
@@ -599,7 +767,11 @@
     "logoPath": "assets/skills/logos/fastapi/fastapi.svg",
     "cardPath": "assets/skills/cards/fastapi.svg",
     "displayOrder": 43,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "FastAPI Python Services",
+    "logo_source": "assets/skills/logos/fastapi/fastapi.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "flask",
@@ -613,7 +785,11 @@
     "logoPath": "assets/skills/logos/flask/flask.svg",
     "cardPath": "assets/skills/cards/flask.svg",
     "displayOrder": 44,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Flask Microframework",
+    "logo_source": "assets/skills/logos/flask/flask.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "postman",
@@ -627,7 +803,11 @@
     "logoPath": "assets/skills/logos/postman/postman.svg",
     "cardPath": "assets/skills/cards/postman.svg",
     "displayOrder": 45,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Postman API Testing",
+    "logo_source": "assets/skills/logos/postman/postman.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "threejs",
@@ -641,7 +821,11 @@
     "logoPath": "assets/skills/logos/threejs/threejs.svg",
     "cardPath": "assets/skills/cards/threejs.svg",
     "displayOrder": 46,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Three.js / WebGL 3D",
+    "logo_source": "assets/skills/logos/threejs/threejs.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "gsap",
@@ -655,7 +839,11 @@
     "logoPath": "assets/skills/logos/gsap/gsap.svg",
     "cardPath": "assets/skills/cards/gsap.svg",
     "displayOrder": 47,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "GSAP Animation Platform",
+    "logo_source": "assets/skills/logos/gsap/gsap.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "tailwind",
@@ -669,7 +857,11 @@
     "logoPath": "assets/skills/logos/tailwind/tailwind.svg",
     "cardPath": "assets/skills/cards/tailwind.svg",
     "displayOrder": 48,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Tailwind CSS",
+    "logo_source": "assets/skills/logos/tailwind/tailwind.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "html",
@@ -683,7 +875,11 @@
     "logoPath": "assets/skills/logos/html/html.svg",
     "cardPath": "assets/skills/cards/html.svg",
     "displayOrder": 49,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "HTML5 Semantic Markup",
+    "logo_source": "assets/skills/logos/html/html.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "css",
@@ -697,7 +893,11 @@
     "logoPath": "assets/skills/logos/css/css.svg",
     "cardPath": "assets/skills/cards/css.svg",
     "displayOrder": 50,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "CSS3 / Modern Layouts",
+    "logo_source": "assets/skills/logos/css/css.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "cplusplus",
@@ -711,7 +911,11 @@
     "logoPath": "assets/skills/logos/cplusplus/cplusplus.svg",
     "cardPath": "assets/skills/cards/cplusplus.svg",
     "displayOrder": 51,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "C / C++ Systems",
+    "logo_source": "assets/skills/logos/cplusplus/cplusplus.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "workday",
@@ -725,7 +929,11 @@
     "logoPath": "assets/skills/logos/workday/workday.svg",
     "cardPath": "assets/skills/cards/workday.svg",
     "displayOrder": 52,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Workday HRMS Integration",
+    "logo_source": "assets/skills/logos/workday/workday.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "servicenow",
@@ -739,7 +947,11 @@
     "logoPath": "assets/skills/logos/servicenow/servicenow.svg",
     "cardPath": "assets/skills/cards/servicenow.svg",
     "displayOrder": 53,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "ServiceNow ITSM Governance",
+    "logo_source": "assets/skills/logos/servicenow/servicenow.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "jira",
@@ -753,7 +965,11 @@
     "logoPath": "assets/skills/logos/jira/jira.svg",
     "cardPath": "assets/skills/cards/jira.svg",
     "displayOrder": 54,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Atlassian Jira",
+    "logo_source": "assets/skills/logos/jira/jira.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "sox_compliance",
@@ -767,7 +983,11 @@
     "logoPath": "assets/skills/logos/sox/sox.svg",
     "cardPath": "assets/skills/cards/sox_compliance.svg",
     "displayOrder": 55,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "SOX 404 & Enterprise Audit Readiness",
+    "logo_source": "assets/skills/logos/sox/sox.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   },
   {
     "id": "figma",
@@ -781,6 +1001,10 @@
     "logoPath": "assets/skills/logos/figma/figma.svg",
     "cardPath": "assets/skills/cards/figma.svg",
     "displayOrder": 56,
-    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam"
+    "portfolioTabUrl": "https://subhajitkar.com/?tab=iam",
+    "technology": "Figma UI/UX Prototyping",
+    "logo_source": "assets/skills/logos/figma/figma.svg",
+    "portfolio_location": "https://subhajitkar.com/?tab=iam",
+    "reference_location": "assets/stack.svg"
   }
 ]

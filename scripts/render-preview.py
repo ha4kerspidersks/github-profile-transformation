@@ -6,6 +6,7 @@ Supports toggling between GitHub Dark Mode and Light Mode.
 
 from pathlib import Path
 import re
+import time
 
 PREVIEW_DIR = Path("/Users/subhajkar/Developer/GitHub-Profile-Transformation/preview")
 README_FILE = PREVIEW_DIR / "README.md"
@@ -13,19 +14,26 @@ OUTPUT_HTML = PREVIEW_DIR / "index.html"
 
 def main():
     content = README_FILE.read_text(encoding="utf-8")
+    ts = int(time.time())
 
     # In index.html, relative assets are at ../assets/
-    # So replace "assets/" with "../assets/"
     adjusted_content = content.replace('src="assets/', 'src="../assets/')
+    adjusted_content = adjusted_content.replace('src="profile-3d-contrib/', 'src="../profile-3d-contrib/')
+    # Inject timestamp cache buster on all local SVG images
+    adjusted_content = re.sub(r'(\.\./assets/[a-zA-Z0-9_\-\./]+\.svg)(\?[^"]*)?', rf'\1?t={ts}', adjusted_content)
 
     html_template = f"""<!DOCTYPE html>
 <html lang="en" data-color-mode="dark" data-dark-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>GitHub Profile Preview — Subhajit Kar (@ha4kerspidersks)</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
   <style>
     body {{
       background-color: #0d1117;
@@ -118,7 +126,8 @@ def main():
       </svg>
       <h1 style="margin:0;font-size:16px;font-weight:600;display:inline;">GitHub Profile Preview: <strong>ha4kerspidersks / README.md</strong></h1>
     </div>
-    <div>
+    <div style="display:flex; gap:10px;">
+      <button class="theme-toggle-btn" onclick="forceReloadAssets()">🔄 Refresh SVGs</button>
       <button class="theme-toggle-btn" onclick="toggleTheme()">🌓 Toggle Dark/Light Mode</button>
     </div>
   </header>
@@ -133,6 +142,21 @@ def main():
   <script>
     const rawMarkdown = {repr(adjusted_content)};
     document.getElementById('content').innerHTML = marked.parse(rawMarkdown);
+
+    // Auto-bust cache on initial page load
+    forceReloadAssets();
+
+    function forceReloadAssets() {{
+      const imgs = document.querySelectorAll('#content img');
+      const now = Date.now();
+      imgs.forEach(img => {{
+        const src = img.getAttribute('src');
+        if (src && !src.startsWith('https://img.shields.io') && !src.startsWith('https://komarev.com')) {{
+          const cleanSrc = src.split('?')[0];
+          img.src = `${{cleanSrc}}?t=${{now}}`;
+        }}
+      }});
+    }}
 
     let isDark = true;
     function toggleTheme() {{

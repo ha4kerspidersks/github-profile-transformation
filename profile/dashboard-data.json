@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "source": "GitHub API + Portfolio source verification",
+    "verifiedAt": "2026-10-03T11:25:00+05:30",
+    "verifiedBy": "gh api users/ha4kerspidersks + portfolio/app/data",
+    "note": "All values are live-verified. LinkedIn metrics unavailable (browser quota exhausted; no data invented)."
+  },
+  "github": {
+    "login": "ha4kerspidersks",
+    "name": "Subhajit Kar",
+    "bio": "Assistant Manager at Deloitte | Governing 300K+ Monthly Enterprise Identities | Saviynt IGA, Workday & Azure AD Architecture",
+    "publicRepos": 6,
+    "totalStars": 0,
+    "totalForks": 0,
+    "followers": 2,
+    "following": 1,
+    "url": "https://github.com/ha4kerspidersks",
+    "verifiedAt": "2026-10-03T11:25:00+05:30",
+    "repositories": [
+      { "name": "AI-Dev-Team", "stars": 0, "forks": 0, "lang": "Python", "url": "https://github.com/ha4kerspidersks/AI-Dev-Team", "desc": "Portable, reproducible AI development environment with agents, skills, MCP, orchestration, model routing, and automation." },
+      { "name": "github-profile-transformation", "stars": 0, "forks": 0, "lang": "Python", "url": "https://github.com/ha4kerspidersks/github-profile-transformation", "desc": "Source engine, automated data pipeline, 3D card generator, and design system for Subhajit Kar's GitHub profile" },
+      { "name": "piescan", "stars": 0, "forks": 0, "lang": "Java", "url": "https://github.com/ha4kerspidersks/piescan", "desc": "A simple fast port scanner for when you cant use Nmap on a pentest." },
+      { "name": "React-Auth0-PermissionManager", "stars": 0, "forks": 0, "lang": "JavaScript", "url": "https://github.com/ha4kerspidersks/React-Auth0-PermissionManager", "desc": "Secure your React applications with role-based access control using Auth0." },
+      { "name": "User-Role-Recommendations", "stars": 0, "forks": 0, "lang": "Python", "url": "https://github.com/ha4kerspidersks/User-Role-Recommendations", "desc": "Python script for user entitlement analysis with machine learning and department-specific recommendations." }
+    ]
+  },
+  "linkedin": {
+    "url": "https://www.linkedin.com/in/subhajit-kar/",
+    "handle": "subhajit-kar",
+    "followers": "UNAVAILABLE",
+    "connections": "UNAVAILABLE",
+    "headline": "UNAVAILABLE",
+    "verificationStatus": "browser_quota_exhausted",
+    "note": "Browser automation quota exhausted. No values invented. LinkedIn metrics omitted from dashboard.",
+    "verifiedAt": "2026-10-03T11:25:00+05:30"
+  },
+  "professional": {
+    "name": "Subhajit Kar",
+    "title": "Senior IAM Assistant Manager",
+    "company": "Deloitte",
+    "department": "Cyber & Strategic Risk",
+    "deloitteStart": "2023-07-17",
+    "location": "Kolkata, India",
+    "identitiesPerMonth": "300K+",
+    "globalZones": "9",
+    "awards": "13",
+    "techCount": "56",
+    "sources": ["portfolio/app/data/socials.ts", "portfolio/app/data/career.ts"]
+  }
+}

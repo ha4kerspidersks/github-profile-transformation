@@ -1,0 +1,20 @@
+[
+  {
+    "institution": "National Forensic Sciences University (NFSU)",
+    "degree": "M.Tech in Cyber Security and Digital Forensics",
+    "period": "Nov 2021 \u2013 Jul 2023",
+    "location": "Gujarat, India",
+    "specialization": "Automotive Cybersecurity, Threat Intel, DevSecOps, Reverse Engineering",
+    "research": [
+      "Attacks on Smart Cars (CAN Bus Vulnerability & Car-Hacking Lab)",
+      "Automation of Web Application Security (DevSecOps on AWS)"
+    ]
+  },
+  {
+    "institution": "Institute of Engineering & Management (IEM)",
+    "degree": "B.Tech in Information Technology",
+    "period": "2017 \u2013 2021",
+    "location": "Kolkata, India",
+    "specialization": "Data Structures, Algorithms, Cryptography, Database Architectures, Network Security"
+  }
+]
