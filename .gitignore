@@ -38,3 +38,5 @@ session.json
 *.log
 .system_generated/
 .pytest_cache/
+preview/*.png
+!preview/live-preview-verification.png

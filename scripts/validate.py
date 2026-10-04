@@ -114,7 +114,8 @@ def check_readme_assets(errors):
     # Extract all src="assets/..."
     srcs = re.findall(r'src=["\'](assets/[^"\']+)["\']', content)
     for src in srcs:
-        asset_file = ROOT_DIR / src
+        clean_src = src.split("?")[0]
+        asset_file = ROOT_DIR / clean_src
         if not asset_file.exists():
             errors.append(f"README refers to non-existent asset: {src}")
 
@@ -142,9 +143,9 @@ def scan_for_secrets(errors):
     for p in ROOT_DIR.rglob("*"):
         if not p.is_file() or p.suffix not in scan_exts:
             continue
-        # Skip node_modules, .git, profile-repo
+        # Skip node_modules, .git, profile-repo, reports (audit documentation)
         parts = p.parts
-        if "node_modules" in parts or ".git" in parts or "profile-repo" in parts:
+        if "node_modules" in parts or ".git" in parts or "profile-repo" in parts or "reports" in parts:
             continue
 
         try:

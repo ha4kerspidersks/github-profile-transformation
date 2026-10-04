@@ -38,7 +38,7 @@ def main():
     steps = [
         ("Pre-build Validation", [sys.executable, str(SCRIPTS_DIR / "validate.py")]),
         ("Generate 3D Technology Wall Cards", [sys.executable, str(SCRIPTS_DIR / "generate-tech-wall.py")]),
-        ("Generate Cinematic Widescreen Hero Banner", [sys.executable, str(SCRIPTS_DIR / "generate-hero-v2.py")]),
+        ("Generate Cinematic Widescreen Hero Banner", [sys.executable, str(SCRIPTS_DIR / "generate-reference-hero.py")]),
         ("Generate Unified 56-Tech Constellation Wall", [sys.executable, str(SCRIPTS_DIR / "generate-unified-stack.py")]),
         ("Generate Enterprise IAM/IGA Visual Pipeline", [sys.executable, str(SCRIPTS_DIR / "generate-iam-visual.py")]),
         ("Generate Holographic Clearance ID & Dashboard", [sys.executable, str(SCRIPTS_DIR / "generate-id-dashboard.py")]),

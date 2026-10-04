@@ -114,8 +114,10 @@ text{{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}}
   </g>
   <text class="sg" x="552" y="258" font-size="17" fill="#eceef6">GitHub</text>
   <text class="jb" x="552" y="280" font-size="12.5" fill="#8d93ab">ha4kerspidersks</text>
-  <g class="arrow" transform="translate(818,262)">
-    <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(818,262)">
+    <g class="arrow">
+      <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
   </g>
 </g>
 
@@ -132,8 +134,10 @@ text{{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}}
   </g>
   <text class="sg" x="946" y="258" font-size="17" fill="#eceef6">LinkedIn</text>
   <text class="jb" x="946" y="280" font-size="12.5" fill="#8d93ab">subhajit-kar-iam</text>
-  <g class="arrow" transform="translate(1212,262)">
-    <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1212,262)">
+    <g class="arrow">
+      <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
   </g>
 </g>
 
@@ -150,8 +154,10 @@ text{{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}}
   </g>
   <text class="sg" x="552" y="366" font-size="17" fill="#eceef6">Email</text>
   <text class="jb" x="552" y="388" font-size="12.5" fill="#8d93ab">subhajit.kar.official@gmail.com</text>
-  <g class="arrow" transform="translate(818,370)">
-    <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#f472b6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(818,370)">
+    <g class="arrow">
+      <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#f472b6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
   </g>
 </g>
 
@@ -168,8 +174,10 @@ text{{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}}
   </g>
   <text class="sg" x="946" y="366" font-size="17" fill="#eceef6">Portfolio Website</text>
   <text class="jb" x="946" y="388" font-size="12.5" fill="#8d93ab">subhajitkar.com</text>
-  <g class="arrow" transform="translate(1212,370)">
-    <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1212,370)">
+    <g class="arrow">
+      <path d="M-6 0h12M2-5l5 5-5 5" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
   </g>
 </g>
 </svg>'''

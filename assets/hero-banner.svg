@@ -98,28 +98,31 @@ text{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}
   <rect x="560" y="0" width="724" height="540" fill="url(#fadeL)" opacity="0.15"/>
   <rect x="560" y="0" width="724" height="540" fill="url(#fadeB)" opacity="0.15"/>
 
-  <!-- Camera HUD Corners -->
-  <path class="corner" d="M30 50v-20h20" stroke="#22d3ee" stroke-width="2" fill="none"/>
-  <path class="corner" d="M1250 50v-20h-20" stroke="#22d3ee" stroke-width="2" fill="none"/>
-  <path class="corner" d="M30 490v20h20" stroke="#22d3ee" stroke-width="2" fill="none"/>
-  <path class="corner" d="M1250 490v20h-20" stroke="#22d3ee" stroke-width="2" fill="none"/>
-
-  <!-- Camera HUD Status Bar -->
-  <g class="fi" style="animation-delay:.3s">
-    <circle cx="70" cy="42" r="4.5" fill="#ef4444"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
-    <text class="jbb" x="84" y="47" font-size="12" fill="#ef4444" letter-spacing="2">REC</text>
-    <text class="jb" x="135" y="47" font-size="12" fill="#8d93ab" letter-spacing="1.5">PORTFOLIO.MP4 &#183; 24FPS</text>
+  <!-- viewfinder HUD -->
+  <path class="corner" d="M760 74V40H794" fill="none" stroke="#eceef6" stroke-opacity=".7" stroke-width="2.2" stroke-linecap="round" style="animation-delay:0.3s"/>
+  <path class="corner" d="M1236 74V40H1202" fill="none" stroke="#eceef6" stroke-opacity=".7" stroke-width="2.2" stroke-linecap="round" style="animation-delay:0.38s"/>
+  <path class="corner" d="M760 466V500H794" fill="none" stroke="#eceef6" stroke-opacity=".7" stroke-width="2.2" stroke-linecap="round" style="animation-delay:0.46s"/>
+  <path class="corner" d="M1236 466V500H1202" fill="none" stroke="#eceef6" stroke-opacity=".7" stroke-width="2.2" stroke-linecap="round" style="animation-delay:0.54s"/>
+  <g class="fi" style="animation-delay:.6s">
+    <circle cx="782" cy="483" r="5" fill="#ef4444"><animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    <text class="jbb" x="794" y="488" font-size="13" fill="#eceef6" letter-spacing="2">REC</text>
+    <text class="jb" x="1222" y="488" font-size="12" fill="#8d93ab" text-anchor="end" letter-spacing="1.5">SUBHAJIT_IAM.RAW &#183; 24FPS</text>
+  </g>
+  <!-- scrub bar synced to video loop -->
+  <g class="fi" style="animation-delay:.8s">
+    <rect x="760" y="516" width="476" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect x="760" y="516" width="0" height="3" rx="1.5" fill="url(#nameG2)">
+      <animate attributeName="width" values="0;476" dur="4.0s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <!-- Open to Collabs Badge -->
-  <g class="fi" style="animation-delay:.5s">
-    <rect x="64" y="66" width="195" height="28" rx="14" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".45"/>
+  <!-- LEFT COPY -->
+  <g class="fu" style="animation-delay:.2s">
+    <rect x="64" y="64" width="236" height="32" rx="16" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".45"/>
     <circle cx="84" cy="80" r="4.5" fill="#34d399"/>
     <circle cx="84" cy="80" r="4" fill="none" stroke="#34d399" stroke-width="1.5"><animate attributeName="r" values="4;11" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="1.6s" repeatCount="indefinite"/></circle>
     <text class="jbb" x="98" y="85" font-size="12" fill="#34d399" letter-spacing="1.6">OPEN TO COLLABS</text>
   </g>
-
-  <!-- Greeting & Name -->
   <text clip-path="url(#hiClip)" class="sgm" x="64" y="164" font-size="30" fill="#eceef6">Hi there, I'm</text>
   <g clip-path="url(#nameClip)">
     <text class="sg" x="60" y="250" font-size="76" letter-spacing="-1.5" fill="url(#nameG)" filter="url(#glow)">Subhajit Kar</text>
@@ -128,37 +131,43 @@ text{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}
 
   <!-- Dynamic Role Cycle -->
   <text class="jbb fi" x="64" y="340" font-size="21" fill="#22d3ee" style="animation-delay:1.8s">&gt;</text>
-  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="1" style="animation-delay:1.9s">Senior IAM Assistant Manager</text>
-  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="0" style="animation-delay:4.9s">Enterprise Identity Governance (IGA)</text>
-  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="0" style="animation-delay:7.9s">Deloitte Cyber &amp; Strategic Risk</text>
-  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="0" style="animation-delay:10.9s">Zero-Trust Identity Architect</text>
+  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="1" style="animation-delay:1.9s">Lead IAM &amp; IGA Architect</text>
+  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="0" style="animation-delay:4.9s">Enterprise Security Specialist</text>
+  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="0" style="animation-delay:7.9s">Zero Trust &amp; Cloud Governance</text>
+  <text class="role jb" x="92" y="340" font-size="21" fill="#eceef6" opacity="0" style="animation-delay:10.9s">Cyber Risk &amp; IAM Research</text>
 
   <!-- Subtitle Description -->
-  <text class="sgm fu" x="64" y="392" font-size="18" fill="#8d93ab" style="animation-delay:2.5s">Architecting zero-trust enterprise identity governance,</text>
-  <text class="sgm fu" x="64" y="418" font-size="18" fill="#8d93ab" style="animation-delay:2.62s">Saviynt IGA automation, and cloud security at scale.</text>
+  <text class="sgm fu" x="64" y="392" font-size="18" fill="#8d93ab" style="animation-delay:2.5s">Architecting scalable Zero-Trust Identity governance,</text>
+  <text class="sgm fu" x="64" y="418" font-size="18" fill="#8d93ab" style="animation-delay:2.62s">enterprise IGA platforms &amp; secure cloud systems.</text>
 
-  <!-- Footer Metadata Badges -->
+  <!-- LEFT PANEL METADATA: 2x2 Grid strictly bounded within left content panel (x < 370px, boundary 540px) -->
   <g class="fu" style="animation-delay:3.0s">
     <g transform="translate(72,453)">
       <path d="M0-8a6 6 0 0 1 6 6c0 4.5-6 10-6 10s-6-5.5-6-10a6 6 0 0 1 6-6z" fill="none" stroke="#22d3ee" stroke-width="1.8"/>
       <circle cy="-2" r="2" fill="#22d3ee"/>
     </g>
-    <text class="jb" x="88" y="458" font-size="14.5" fill="#8d93ab">Kolkata / Bengaluru, IN</text>
+    <text class="jb" x="88" y="458" font-size="14" fill="#8d93ab">Kolkata, India</text>
   </g>
-
   <g class="fu" style="animation-delay:3.15s">
-    <g transform="translate(310,453)">
+    <g transform="translate(262,453)">
       <rect x="-7" y="-5" width="14" height="11" rx="2" fill="none" stroke="#a78bfa" stroke-width="1.8"/>
       <path d="M-3-5v-2.5h6V-5" fill="none" stroke="#a78bfa" stroke-width="1.8"/>
     </g>
-    <text class="jb" x="326" y="458" font-size="14.5" fill="#8d93ab">Deloitte Cyber &amp; Risk</text>
+    <text class="jb" x="278" y="458" font-size="14" fill="#8d93ab">Enterprise</text>
   </g>
-
   <g class="fu" style="animation-delay:3.3s">
-    <g transform="translate(535,453)">
+    <g transform="translate(72,488)">
       <path d="M0-8l2.4 5 5.4.6-4 3.7 1.1 5.4L0 4 -4.9 6.7-3.8 1.3-7.8-2.4l5.4-.6z" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linejoin="round"/>
     </g>
-    <text class="jb" x="551" y="458" font-size="14.5" fill="#8d93ab">300K+ identities &#183; 13 awards</text>
+    <text class="jb" x="88" y="493" font-size="14" fill="#8d93ab">700K+ Identities</text>
+  </g>
+  <g class="fu" style="animation-delay:3.45s">
+    <g transform="translate(262,488)">
+      <path d="M-5-7h10v5a5 5 0 0 1-10 0v-5z" fill="none" stroke="#fbbf24" stroke-width="1.6"/>
+      <path d="M-5-5h-2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h2 M5-5h2a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-2" fill="none" stroke="#fbbf24" stroke-width="1.3"/>
+      <path d="M0-2v5 M-3.5 3h7" fill="none" stroke="#fbbf24" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <text class="jb" x="278" y="493" font-size="14" fill="#8d93ab">13 Awards</text>
   </g>
 </g>
 
