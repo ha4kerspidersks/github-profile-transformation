@@ -31,6 +31,9 @@ reference-awesome-github-profile/
 *.key
 *.cert
 credentials.json
+secrets.json
+service-account*.json
+*.secret
 token.json
 session.json
 
