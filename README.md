@@ -1,72 +1,129 @@
-<div align="center">
+# GitHub Profile Transformation Engine
 
-<!-- 🎬 HERO — cinematic portrait motion + credentials -->
-<img src="assets/hero.svg" alt="Hi, I'm Subhajit Kar — Senior IAM Assistant Manager" width="100%"/>
+[![Build Pipeline](https://img.shields.io/badge/Build_Pipeline-Active-success.svg)](scripts/build)
+[![Zero Secrets](https://img.shields.io/badge/Security-Zero_Secrets-brightgreen.svg)](docs/SETUP.md#security-assurance)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<br/><br/>
+An automated engineering toolchain, structured data compiler, vector SVG card generator, and quality assurance framework powering **Subhajit Kar's GitHub Profile**.
 
-<!-- 🛡️ LEFT: Enterprise IAM & IGA Architecture   •   🎓 RIGHT: Leadership, NFSU Research & Honors -->
-<img src="assets/about-life.svg" alt="Enterprise IAM Governance and Cyber Risk Leadership" width="100%"/>
+---
 
-<br/><br/>
+## 📌 Project Overview
 
-<!-- ⚛️ TECH STACK — Complete Unified 56-Technology Constellation -->
-<img src="assets/stack.svg" alt="Tech stack — 56 Verified Production Technologies" width="100%"/>
+`github-profile-transformation` decouples profile content from presentation. Instead of manually editing markdown or maintaining hardcoded HTML/SVG files, profile content is modeled as structured JSON schemas (`profile/*.json`).
 
-<br/><br/>
+The compilation pipeline transforms these data sources into:
+1. **Dynamic SVG Vector Assets**: 56 curated technology cards, hero identity banners, and architectural diagrams.
+2. **Deterministic Markdown Templates**: Compiled into `preview/README.md` and synced to the profile repository `ha4kerspidersks/ha4kerspidersks`.
+3. **Automated Quality & Security Gates**: Schema validation, XML well-formedness testing, dead-link auditing, and secret detection.
 
-<!-- 🪪 ZERO-TRUST SMARTCARD CLEARANCE + DASHBOARD -->
-<img src="assets/id-dashboard.svg" alt="Developer ID and Enterprise Dashboard" width="100%"/>
+---
 
-<br/><br/>
+## 🏛️ System Architecture
 
-</div>
+```text
+┌───────────────────────────────┐
+│     Structured Data Source    │
+│  profile/*.json (True Origin) │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│      Transformation Engine    │
+│  • scripts/build              │
+│  • scripts/generate-cards.py  │
+│  • scripts/generate-readme.py │
+└───────────────┬───────────────┘
+                │
+                ├────────────────────────────────┐
+                ▼                                ▼
+┌───────────────────────────────┐┌───────────────────────────────┐
+│     Compiled Vector Assets    ││       Profile Markdown        │
+│ assets/*.svg (Cards & Banners)││ preview/README.md (Compiled)  │
+└───────────────┬───────────────┘└───────────────┬───────────────┘
+                │                                │
+                └───────────────┬────────────────┘
+                                │
+                                ▼
+                ┌───────────────────────────────┐
+                │    QA & Validation Gates      │
+                │  • XML / SVG Linting          │
+                │  • Broken Link Detection      │
+                │  • Gitleaks & Secret Scans    │
+                └───────────────┬───────────────┘
+                                │
+                                ▼
+                ┌───────────────────────────────┐
+                │   Target Distribution Sync    │
+                │   ha4kerspidersks/README.md   │
+                └───────────────────────────────┘
+```
 
-## 🛡️ Featured builds
+---
 
-| Project | What it is | Stack |
-|:---|:---|:---|
-| [**AI-Dev-Team**](https://github.com/ha4kerspidersks/AI-Dev-Team) | Portable, reproducible AI development environment with agents, skills, MCP, orchestration, model routing, and automation | `Python` `MCP` `Multi-Agent` `Automation` |
-| [**User-Role-Recommendations**](https://github.com/ha4kerspidersks/User-Role-Recommendations) | Python script for user entitlement analysis with machine learning and department-specific role recommendations | `Python` `scikit-learn` `Pandas` `RBAC` |
-| [**React-Auth0-PermissionManager**](https://github.com/ha4kerspidersks/React-Auth0-PermissionManager) | Secure React applications with role-based access control using Auth0 — JWT token management & OAuth 2.0 policy enforcement | `React` `Auth0` `JavaScript` `RBAC` |
-| [**piescan**](https://github.com/ha4kerspidersks/piescan) | Simple fast port scanner for penetration testing when Nmap is unavailable | `Java` `Network Security` `Pentesting` |
+## 📁 Repository Structure
 
-<div align="center">
+```text
+GitHub-Profile-Transformation/
+├── profile/                 # Structured JSON schemas (Source of Truth)
+│   ├── profile-data.json    # Personal identity, verified title, credentials
+│   ├── technology-stack.json# 56 verified production technologies
+│   ├── projects.json        # Flagship repositories & metadata
+│   ├── experience.json      # Enterprise IAM / Security career roles
+│   └── metrics.json         # Enterprise identity reconciliation telemetry
+├── assets/                  # Compiled SVGs, banners, and vector assets
+├── scripts/                 # Automation scripts (build, validate, preview, sync)
+│   ├── build                # Master build pipeline runner
+│   ├── validate             # Post-build validation & security audit
+│   ├── preview              # Local HTTP preview server
+│   ├── generate-readme.py   # Markdown template compiler
+│   └── export-to-profile.py # Syncs build output to ha4kerspidersks repo
+├── templates/               # Markdown templates with handlebars syntax
+├── docs/                    # Architectural and setup documentation
+│   ├── SETUP.md             # Environment setup and dependencies
+│   ├── WORKFLOW.md          # Step-by-step operating lifecycle
+│   └── CUSTOMIZATION.md     # Guide for adding cards, roles, and themes
+└── preview/                 # Local compiled artifacts for browser inspection
+```
 
-<br/>
+---
 
-<!-- 📊 DEVELOPER ANALYTICS — Engineering Activity & Production Telemetry -->
-<img src="assets/developer-analytics.svg" alt="Developer Analytics — Engineering activity at a glance" width="100%"/>
+## 🚀 Quick Start
 
-<details>
-<summary><b>🔍 Deep-Dive: Architectural Systems &amp; Engineering Signals</b> · <i>Traceable portfolio &amp; GitHub telemetry</i></summary>
-<br/>
+### 1. Prerequisites
+- **Python 3.9+** (uses standard library: `json`, `xml.etree`, `pathlib`, `http.server`)
+- **Bash / Zsh** (macOS or Linux)
 
-> ### Enterprise Identity Governance &amp; Multi-Agent Telemetry
-> - **Identity Scale**: Reconciling 300,000+ enterprise identities monthly across 9 global regulatory zones (US, EMEA, APAC).
-> - **Defect Elimination**: 80–90% reduction in identity mismatch defects through Python automated reconciliation pipelines.
-> - **Operational Remediations**: 250+ ServiceNow RITMs resolved via root-cause workflow automation.
-> - **Test &amp; Code Assurance**: Enforced 90% automated test coverage across custom connector engines and role-mining models.
-> - **Autonomous Multi-Agent Architecture**: Direct integration of 56 production technologies across IAM, Cloud, DevSecOps, and Agentic AI.
+### 2. Execution Workflow
 
-</details>
+```bash
+# Clone repository
+git clone https://github.com/ha4kerspidersks/github-profile-transformation.git
+cd github-profile-transformation
 
-<br/><br/>
+# 1. Run pre-flight validation
+./scripts/validate
 
-<!-- 💌 LET'S CONNECT -->
-<img src="assets/connect.svg" alt="Let's connect" width="100%"/>
+# 2. Execute full compilation pipeline
+./scripts/build
 
-<a href="https://github.com/ha4kerspidersks"><img src="https://img.shields.io/badge/GitHub-22d3ee?style=for-the-badge&logo=github&logoColor=0d0e16" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/subhajit-kar/"><img src="https://img.shields.io/badge/LinkedIn-a78bfa?style=for-the-badge&logo=linkedin&logoColor=0d0e16" alt="LinkedIn"/></a>
-<a href="mailto:subhajit.kar.official@gmail.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
-<a href="https://subhajitkar.com"><img src="https://img.shields.io/badge/Portfolio-34d399?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="Portfolio"/></a>
+# 3. Launch local interactive preview
+./scripts/preview
+```
 
-<br/><br/>
+Open `http://localhost:4114/preview/index.html` to inspect the generated profile rendered in dark and light modes.
 
-<img src="https://komarev.com/ghpvc/?username=ha4kerspidersks&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+---
 
-<br/>
+## 🛡️ Security & Integrity
 
-**Enterprise scale, zero-trust precision.** 🛡️
+- **Zero Secrets Policy**: All API keys, tokens, session cookies, and local configurations are strictly excluded via `.gitignore`.
+- **Authentic Metrics**: Hardcoded fake stars and fabricated stats are prohibited; all data must reflect authentic repository state and verified enterprise achievements.
+- **Automated Validation**: The `./scripts/validate` suite runs automated checks ensuring zero missing assets, zero broken links, and full XML compliance before any commit.
 
-</div>
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
