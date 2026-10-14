@@ -1,14 +1,1 @@
-<svg width="256" height="256" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <linearGradient id="llm-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a78bfa"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#6d28d9"/>
-    </linearGradient>
-  </defs>
-  <rect x="22" y="22" width="84" height="84" rx="20" fill="#18181b" stroke="url(#llm-grad)" stroke-width="4"/>
-  <path d="M 64,34 L 68,54 L 88,58 L 68,62 L 64,82 L 60,62 L 40,58 L 60,54 Z" fill="url(#llm-grad)"/>
-  <path d="M 86,34 L 88,44 L 98,46 L 88,48 L 86,58 L 84,48 L 74,46 L 84,44 Z" fill="#c4b5fd"/>
-  <path d="M 42,74 L 44,82 L 52,84 L 44,86 L 42,94 L 40,86 L 32,84 L 40,82 Z" fill="#c4b5fd"/>
-  <line x1="36" y1="100" x2="92" y2="100" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" stroke-dasharray="4,4"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 128 128"><defs><linearGradient id="llm-grad" x1="0%" x2="100%" y1="0%" y2="100%"><stop offset="0%" stop-color="#a78bfa"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient></defs><rect width="84" height="84" x="22" y="22" fill="#18181b" stroke="url(#llm-grad)" stroke-width="4" rx="20"/><path fill="url(#llm-grad)" d="M 64,34 L 68,54 L 88,58 L 68,62 L 64,82 L 60,62 L 40,58 L 60,54 Z"/><path fill="#c4b5fd" d="M 86,34 L 88,44 L 98,46 L 88,48 L 86,58 L 84,48 L 74,46 L 84,44 Z"/><path fill="#c4b5fd" d="M 42,74 L 44,82 L 52,84 L 44,86 L 42,94 L 40,86 L 32,84 L 40,82 Z"/><line x1="36" x2="92" y1="100" y2="100" stroke="#8b5cf6" stroke-dasharray="4 4" stroke-linecap="round" stroke-width="3"/></svg>
